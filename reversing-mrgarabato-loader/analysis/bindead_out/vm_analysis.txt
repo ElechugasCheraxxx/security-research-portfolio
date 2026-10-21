@@ -1,0 +1,39 @@
+Architecture name: x86-64
+Architecture size: 64 bit
+Endianness: LITTLE
+Format: PE
+Type: Executable
+Entry point: 0xef05
+Debug Info: true
+
+Sections:
+ Address  Name   Size     Permissions      
+ 0x1001   .vmix  1372160  [Read, Execute]  
+
+
+Symbols:
+ Address  Name  Size  
+
+
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+Disassembled native (x86-64) code (6 instructions):
+0000ef05:  48 8d 94 24 40 01 00 00           lea    rdx, [rsp+0x140]
+0000ef0d:  48 3b ea                          cmp    rbp, rdx
+0000ef10:  0f 87 17 88 11 00                 ja     0x12772d
+0000ef16:  48 8b c4                          mov    rax, rsp
+0000ef19:  48 0f b3 d1                       btr    rcx, rdx
+...........(1148944 bytes)
+0012772d:  57                                push   rdi
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+
+Analyzed x86-64 code: 6 instructions
+Analyzed RREIL code: 29 instructions
+Analysis steps: 16  ≈0 iterations/instruction
+Max iterations to fixpoint: 2
+Widening points: 0 @ {}
+Warnings: 0
+
+Warnings: 0
+

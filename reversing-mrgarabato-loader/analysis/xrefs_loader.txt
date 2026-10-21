@@ -1,0 +1,1168 @@
+// instrs desensambladas: 35346
+=== RVA 0x022348  '<no-string>'
+    0x00f258  mov      rcx, qword ptr [rip + 0x130e9]
+    0x019d6b  mov      rbx, qword ptr [rip + 0x85d6]
+    0x01a013  mov      rbx, qword ptr [rip + 0x832d]
+    0x01a045  mov      rbx, qword ptr [rip + 0x82fc]
+    0x01a079  mov      rbx, qword ptr [rip + 0x82c8]
+    0x01a0b8  mov      ebx, dword ptr [rip + 0x828a]
+    0x01a146  mov      rcx, qword ptr [rip + 0x81fb]
+    0x01a279  mov      rcx, qword ptr [rip + 0x80c8]
+    0x01a2ba  mov      rbx, qword ptr [rip + 0x8087]
+    0x01a34f  mov      rbx, qword ptr [rip + 0x7ff2]
+    0x01a3e0  mov      rbx, qword ptr [rip + 0x7f61]
+    0x01a4fe  mov      rcx, qword ptr [rip + 0x7e43]
+    0x01a550  mov      rcx, qword ptr [rip + 0x7df1]
+    0x01a5ea  mov      rbx, qword ptr [rip + 0x7d57]
+    0x01a6c9  mov      rbx, qword ptr [rip + 0x7c78]
+    0x01a716  mov      rbx, qword ptr [rip + 0x7c2b]
+    0x01a747  mov      rbx, qword ptr [rip + 0x7bfa]
+    0x01a778  mov      rbx, qword ptr [rip + 0x7bc9]
+=== RVA 0x022678  '<no-string>'
+    0x01b222  call     qword ptr [rip + 0x7450]
+    0x01b686  call     qword ptr [rip + 0x6fec]
+    0x01b6c2  call     qword ptr [rip + 0x6fb0]
+    0x01b8f0  jmp      qword ptr [rip + 0x6d82]
+=== RVA 0x0226a0  '<no-string>'
+    0x01b1d5  lea      rcx, [rip + 0x74c4]
+=== RVA 0x022770  '<no-string>'
+    0x01b1ce  lea      rdx, [rip + 0x759b]
+=== RVA 0x022778  '<no-string>'
+    0x01b1b4  lea      rcx, [rip + 0x75bd]
+=== RVA 0x022790  '<no-string>'
+    0x01b1ad  lea      rdx, [rip + 0x75dc]
+=== RVA 0x0227d8  '<no-string>'
+    0x003aed  lea      rax, [rip + 0x1ece4]
+    0x003b3c  lea      rcx, [rip + 0x1ec95]
+    0x003b7c  lea      rcx, [rip + 0x1ec55]
+    0x003bec  lea      rcx, [rip + 0x1ebe5]
+    0x003c2c  lea      rcx, [rip + 0x1eba5]
+    0x003c93  lea      rax, [rip + 0x1eb3e]
+    0x003ced  lea      rax, [rip + 0x1eae4]
+    0x0045e0  lea      rax, [rip + 0x1e1f1]
+    0x0048ca  lea      rax, [rip + 0x1df07]
+    0x00491a  lea      rax, [rip + 0x1deb7]
+    0x00b35d  lea      rax, [rip + 0x17474]
+=== RVA 0x0227e8  'Unknown exception'
+    0x00a704  lea      rax, [rip + 0x180dd]
+=== RVA 0x022808  '<no-string>'
+    0x003b59  lea      rax, [rip + 0x1eca8]
+    0x01b304  lea      rax, [rip + 0x74fd]
+=== RVA 0x022820  '<no-string>'
+    0x003b99  lea      rax, [rip + 0x1ec80]
+    0x003bc3  lea      rax, [rip + 0x1ec56]
+=== RVA 0x022830  'bad array new length'
+    0x003bb0  lea      rax, [rip + 0x1ec79]
+=== RVA 0x022848  'string too long'
+    0x009524  lea      rcx, [rip + 0x1931d]
+=== RVA 0x022860  '<no-string>'
+    0x003c49  lea      rax, [rip + 0x1ec10]
+    0x003cb2  lea      rax, [rip + 0x1eba7]
+=== RVA 0x022878  '<no-string>'
+    0x003aaf  lea      rax, [rip + 0x1edc2]
+    0x003b0d  lea      rax, [rip + 0x1ed64]
+    0x003d0d  lea      rax, [rip + 0x1eb64]
+    0x00b37d  lea      rax, [rip + 0x174f4]
+=== RVA 0x022888  '<no-string>'
+    0x003999  lea      r9, [rip + 0x1eee8]
+=== RVA 0x022898  '<no-string>'
+    0x003d17  lea      rax, [rip + 0x1eb7a]
+=== RVA 0x0228e0  'generic'
+    0x009e50  lea      rax, [rip + 0x18a89]
+=== RVA 0x022920  'system'
+    0x009e60  lea      rax, [rip + 0x18ab9]
+=== RVA 0x022928  'unknown error'
+    0x009e14  lea      rdx, [rip + 0x18b0d]
+=== RVA 0x022938  'false'
+    0x005ace  lea      rdx, [rip + 0x1ce63]
+=== RVA 0x022940  'true'
+    0x005a8a  lea      rdx, [rip + 0x1ceaf]
+=== RVA 0x022945  "'status' +3"
+    0x009a03  lea      rdx, [rip + 0x18f3b]
+    0x009a57  lea      rdx, [rip + 0x18ee7]
+    0x009aae  lea      rdx, [rip + 0x18e90]
+    0x009b46  lea      rdx, [rip + 0x18df8]
+    0x00becc  lea      rdx, [rip + 0x16a72]
+    0x00bf90  lea      rdx, [rip + 0x169ae]
+    0x00c023  lea      rdx, [rip + 0x1691b]
+=== RVA 0x022948  'status'
+    0x007421  lea      rdx, [rip + 0x1b520]
+    0x00780c  lea      rdx, [rip + 0x1b135]
+=== RVA 0x022950  '<no-string>'
+    0x004be5  lea      rdx, [rip + 0x1dd64]
+    0x0058c2  lea      rdx, [rip + 0x1d087]
+    0x00590f  lea      r9, [rip + 0x1d03a]
+    0x005ba1  lea      rdx, [rip + 0x1cda8]
+    0x005bee  lea      r9, [rip + 0x1cd5b]
+    0x005e7a  lea      rdx, [rip + 0x1cacf]
+    0x005ec7  lea      r9, [rip + 0x1ca82]
+    0x0061b5  lea      rdx, [rip + 0x1c794]
+    0x006201  lea      r9, [rip + 0x1c748]
+    0x006835  lea      rdx, [rip + 0x1c114]
+    0x00691f  lea      rdx, [rip + 0x1c02a]
+    0x00c858  lea      r9, [rip + 0x160f1]
+=== RVA 0x022960  '<no-string>'
+    0x003dbe  lea      rax, [rip + 0x1eb9b]
+    0x00678b  lea      rax, [rip + 0x1c1ce]
+=== RVA 0x0229e0  '<no-string>'
+    0x004754  lea      rax, [rip + 0x1e285]
+    0x0047cf  lea      rax, [rip + 0x1e20a]
+    0x0049ea  lea      r14, [rip + 0x1dfef]
+    0x006763  lea      r12, [rip + 0x1c276]
+=== RVA 0x0229e8  '<no-string>'
+    0x0049af  lea      rax, [rip + 0x1e032]
+    0x006728  lea      rax, [rip + 0x1c2b9]
+=== RVA 0x0229f0  '<no-string>'
+    0x006d8e  lea      rdx, [rip + 0x1bc5b]
+=== RVA 0x0229f8  'username'
+    0x007163  lea      rdx, [rip + 0x1b88e]
+    0x0076b4  lea      rdx, [rip + 0x1b33d]
+    0x019e6a  lea      rcx, [rip + 0x8b87]
+=== RVA 0x022a04  'email'
+    0x0071d6  lea      rdx, [rip + 0x1b827]
+    0x007726  lea      rdx, [rip + 0x1b2d7]
+=== RVA 0x022a10  'discordid'
+    0x00724c  lea      rdx, [rip + 0x1b7bd]
+=== RVA 0x022a20  'subscription'
+    0x006ef1  lea      rdx, [rip + 0x1bb28]
+    0x0072c2  lea      rdx, [rip + 0x1b757]
+=== RVA 0x022a30  'subscription_level'
+    0x006f66  lea      rdx, [rip + 0x1bac3]
+=== RVA 0x022a48  'expiry_date'
+    0x007335  lea      rdx, [rip + 0x1b70c]
+    0x00779b  lea      rdx, [rip + 0x1b2a6]
+=== RVA 0x022a58  'hwid_affected'
+    0x0073ab  lea      rdx, [rip + 0x1b6a6]
+=== RVA 0x022a68  'created_at'
+    0x007497  lea      rdx, [rip + 0x1b5ca]
+=== RVA 0x022a78  'last_login'
+    0x00750d  lea      rdx, [rip + 0x1b564]
+=== RVA 0x022a84  "'hwid' +4"
+    0x007583  lea      rdx, [rip + 0x1b4fa]
+=== RVA 0x022a88  'hwid'
+    0x0075f5  lea      rdx, [rip + 0x1b48c]
+=== RVA 0x022a90  '<no-string>'
+    0x00572c  lea      r9, [rip + 0x1d35d]
+=== RVA 0x022a94  '<no-string>'
+    0x005770  lea      r9, [rip + 0x1d31d]
+=== RVA 0x022a98  '<no-string>'
+    0x0057f1  lea      r9, [rip + 0x1d2a0]
+=== RVA 0x022a9c  '<no-string>'
+    0x0057b4  lea      r9, [rip + 0x1d2e1]
+=== RVA 0x022aa0  '<no-string>'
+    0x00582e  lea      r9, [rip + 0x1d26b]
+=== RVA 0x022aa4  '<no-string>'
+    0x00112a  lea      rdx, [rip + 0x21973]
+=== RVA 0x022aa8  '<no-string>'
+    0x007f50  lea      rdx, [rip + 0x1ab51]
+    0x007fae  lea      rdx, [rip + 0x1aaf3]
+=== RVA 0x022aac  "'\\\\u%04x' +4"
+    0x0082d4  lea      r9, [rip + 0x1a7d1]
+=== RVA 0x022ab0  '\\u%04x'
+    0x005635  lea      rdx, [rip + 0x1d474]
+=== RVA 0x022ab8  '<no-string>'
+    0x004bf7  lea      rdx, [rip + 0x1deba]
+    0x00696c  lea      rdx, [rip + 0x1c145]
+=== RVA 0x022ac0  '"app":"'
+    0x004bae  lea      rdx, [rip + 0x1df0b]
+=== RVA 0x022ac8  '<no-string>'
+    0x004a71  lea      rdx, [rip + 0x1e050]
+    0x004abc  lea      rdx, [rip + 0x1e005]
+    0x004b07  lea      rdx, [rip + 0x1dfba]
+    0x004b53  lea      rdx, [rip + 0x1df6e]
+    0x004b9c  lea      rdx, [rip + 0x1df25]
+    0x0067ea  lea      rdx, [rip + 0x1c2d7]
+=== RVA 0x022ad0  '"seller":"'
+    0x004b65  lea      rdx, [rip + 0x1df64]
+=== RVA 0x022ae0  '"app_version":"'
+    0x004b19  lea      rdx, [rip + 0x1dfc0]
+=== RVA 0x022af0  '"app_secret":"'
+    0x004ace  lea      rdx, [rip + 0x1e01b]
+=== RVA 0x022b00  '"owner_id":"'
+    0x004a83  lea      rdx, [rip + 0x1e076]
+=== RVA 0x022b10  '"app_name":"'
+    0x004a3b  lea      rdx, [rip + 0x1e0ce]
+=== RVA 0x022b20  '<no-string>'
+    0x004a28  lea      rdx, [rip + 0x1e0f1]
+    0x0067a1  lea      rdx, [rip + 0x1c378]
+=== RVA 0x022b28  'message'
+    0x006e0d  lea      rdx, [rip + 0x1bd14]
+=== RVA 0x022b30  'token'
+    0x006e7f  lea      rdx, [rip + 0x1bcaa]
+=== RVA 0x022b38  'update_url'
+    0x006fd8  lea      rdx, [rip + 0x1bb59]
+=== RVA 0x022b44  'user'
+    0x007062  lea      rdx, [rip + 0x1badb]
+=== RVA 0x022b50  'Request failed'
+    0x0078a3  lea      rdx, [rip + 0x1b2a6]
+    0x0078b8  lea      r9, [rip + 0x1b291]
+=== RVA 0x022b60  'Invalid URL'
+    0x00816a  lea      rdx, [rip + 0x1a9ef]
+    0x00817f  lea      r9, [rip + 0x1a9da]
+=== RVA 0x022b70  '<no-string>'
+    0x0082f9  lea      rcx, [rip + 0x1a870]
+=== RVA 0x022b90  'WinHttpOpen failed'
+    0x008329  lea      rdx, [rip + 0x1a860]
+    0x008341  lea      r9, [rip + 0x1a848]
+=== RVA 0x022ba8  'WinHttpConnect failed'
+    0x0083c3  lea      rdx, [rip + 0x1a7de]
+    0x0083d8  lea      r9, [rip + 0x1a7c9]
+=== RVA 0x022bc0  '<no-string>'
+    0x0084d2  lea      rdx, [rip + 0x1a6e7]
+=== RVA 0x022bd0  'WinHttpOpenRequest failed'
+    0x008504  lea      rdx, [rip + 0x1a6c5]
+=== RVA 0x022bf0  '<no-string>'
+    0x00854d  lea      rdx, [rip + 0x1a69c]
+=== RVA 0x022c68  '<no-string>'
+    0x008582  lea      r8, [rip + 0x1a6df]
+    0x008648  lea      r8, [rip + 0x1a619]
+    0x00870f  lea      r8, [rip + 0x1a552]
+    0x0087d6  lea      r8, [rip + 0x1a48b]
+    0x00889a  lea      r8, [rip + 0x1a3c7]
+    0x00895e  lea      r8, [rip + 0x1a303]
+    0x008b00  lea      r9, [rip + 0x1a161]
+=== RVA 0x022c70  '<no-string>'
+    0x008570  lea      rdx, [rip + 0x1a6f9]
+=== RVA 0x022c90  '<no-string>'
+    0x008637  lea      rdx, [rip + 0x1a652]
+=== RVA 0x022cb0  '<no-string>'
+    0x0086fe  lea      rdx, [rip + 0x1a5ab]
+=== RVA 0x022cd0  '<no-string>'
+    0x0087c5  lea      rdx, [rip + 0x1a504]
+=== RVA 0x022cf0  '<no-string>'
+    0x008889  lea      rdx, [rip + 0x1a460]
+=== RVA 0x022d08  '<no-string>'
+    0x00894d  lea      rdx, [rip + 0x1a3b4]
+=== RVA 0x022d18  '<no-string>'
+    0x008a1a  lea      rdx, [rip + 0x1a2f7]
+=== RVA 0x022d20  'WinHttpSendRequest failed: '
+    0x008d74  lea      rdx, [rip + 0x19fa5]
+=== RVA 0x022d40  'WinHttpReceiveResponse failed: '
+    0x008f93  lea      rdx, [rip + 0x19da6]
+=== RVA 0x022d60  '<no-string>'
+    0x004f7d  lea      rdx, [rip + 0x1dddc]
+    0x004f9c  lea      r9, [rip + 0x1ddbd]
+    0x019c59  lea      rdx, [rip + 0x9100]
+=== RVA 0x022da0  'MrGarabato'
+    0x004fd3  lea      rdx, [rip + 0x1ddc6]
+    0x004fe8  lea      r9, [rip + 0x1ddb1]
+    0x019c6c  lea      rdx, [rip + 0x912d]
+    0x019cde  lea      rdx, [rip + 0x90bb]
+    0x019cf2  lea      rdx, [rip + 0x90a7]
+=== RVA 0x022db0  'urus_bypass'
+    0x005028  lea      rdx, [rip + 0x1dd81]
+    0x00503f  lea      r9, [rip + 0x1dd6a]
+=== RVA 0x022dc0  'YourApplication'
+    0x005076  lea      rdx, [rip + 0x1dd43]
+    0x00508c  lea      r9, [rip + 0x1dd2d]
+=== RVA 0x022dd0  'OWNER_ID'
+    0x0050d5  lea      r9, [rip + 0x1dcf4]
+=== RVA 0x022de0  'APP_SECRET'
+    0x005110  lea      rdx, [rip + 0x1dcc9]
+    0x005125  lea      r9, [rip + 0x1dcb4]
+=== RVA 0x022dec  "'Empty response' +4"
+    0x005160  lea      rdx, [rip + 0x1dc85]
+    0x005175  lea      r9, [rip + 0x1dc70]
+    0x019ccb  lea      rdx, [rip + 0x911a]
+=== RVA 0x022df0  'Empty response'
+    0x007b6f  lea      rdx, [rip + 0x1b27a]
+=== RVA 0x022e00  '"password":"'
+    0x0067fc  lea      rdx, [rip + 0x1c5fd]
+=== RVA 0x022e10  '"username":"'
+    0x0067b4  lea      rdx, [rip + 0x1c655]
+=== RVA 0x022e20  ',"hwid":"'
+    0x0068e0  lea      rdx, [rip + 0x1c539]
+=== RVA 0x022e30  '<no-string>'
+    0x006a1a  lea      rdx, [rip + 0x1c40f]
+=== RVA 0x022e68  'vector too long'
+    0x00cf14  lea      rcx, [rip + 0x15f4d]
+=== RVA 0x022e78  'invalid string position'
+    0x009544  lea      rcx, [rip + 0x1992d]
+=== RVA 0x022e90  '<no-string>'
+    0x0054c1  movdqa   xmm0, xmmword ptr [rip + 0x1d9c7]
+    0x007dc2  movdqa   xmm0, xmmword ptr [rip + 0x1b0c6]
+    0x0085c8  movdqa   xmm0, xmmword ptr [rip + 0x1a8c0]
+    0x0085f4  movdqa   xmm0, xmmword ptr [rip + 0x1a894]
+    0x008692  movdqa   xmm0, xmmword ptr [rip + 0x1a7f6]
+    0x0086bd  movdqa   xmm0, xmmword ptr [rip + 0x1a7cb]
+    0x008759  movdqa   xmm0, xmmword ptr [rip + 0x1a72f]
+    0x008784  movdqa   xmm0, xmmword ptr [rip + 0x1a704]
+    0x008820  movdqa   xmm0, xmmword ptr [rip + 0x1a668]
+    0x00884b  movdqa   xmm0, xmmword ptr [rip + 0x1a63d]
+    0x0088e4  movdqa   xmm0, xmmword ptr [rip + 0x1a5a4]
+    0x00890f  movdqa   xmm0, xmmword ptr [rip + 0x1a579]
+    0x0089a8  movdqa   xmm0, xmmword ptr [rip + 0x1a4e0]
+    0x0089d3  movdqa   xmm0, xmmword ptr [rip + 0x1a4b5]
+    0x00dadd  movdqa   xmm0, xmmword ptr [rip + 0x153ab]
+    0x00dc09  movdqa   xmm0, xmmword ptr [rip + 0x1527f]
+    0x00dd35  movdqa   xmm0, xmmword ptr [rip + 0x15153]
+    0x00de61  movdqa   xmm0, xmmword ptr [rip + 0x15027]
+    0x00e0b9  movdqa   xmm0, xmmword ptr [rip + 0x14dcf]
+    0x00e311  movdqa   xmm0, xmmword ptr [rip + 0x14b77]
+    0x00e43d  movdqa   xmm0, xmmword ptr [rip + 0x14a4b]
+=== RVA 0x022ea0  '<no-string>'
+    0x004c44  movdqa   xmm0, xmmword ptr [rip + 0x1e254]
+    0x004c97  movdqa   xmm0, xmmword ptr [rip + 0x1e201]
+    0x004ce9  movdqa   xmm0, xmmword ptr [rip + 0x1e1af]
+    0x004d3a  movdqa   xmm0, xmmword ptr [rip + 0x1e15e]
+    0x004d89  movdqa   xmm0, xmmword ptr [rip + 0x1e10f]
+    0x005985  movdqa   xmm0, xmmword ptr [rip + 0x1d513]
+    0x005f40  movdqa   xmm0, xmmword ptr [rip + 0x1cf58]
+    0x006882  movdqa   xmm0, xmmword ptr [rip + 0x1c616]
+    0x00703f  movdqa   xmm1, xmmword ptr [rip + 0x1be59]
+    0x007c58  movdqa   xmm0, xmmword ptr [rip + 0x1b240]
+    0x008de5  movdqa   xmm0, xmmword ptr [rip + 0x1a0b3]
+    0x008fef  movdqa   xmm0, xmmword ptr [rip + 0x19ea9]
+    0x00b952  movdqa   xmm1, xmmword ptr [rip + 0x17546]
+    0x00bd02  movdqa   xmm0, xmmword ptr [rip + 0x17196]
+    0x00c8df  movdqa   xmm0, xmmword ptr [rip + 0x165b9]
+    0x00c9b5  movdqa   xmm0, xmmword ptr [rip + 0x164e3]
+    0x00ca04  movdqa   xmm0, xmmword ptr [rip + 0x16494]
+    0x00cacb  movdqa   xmm0, xmmword ptr [rip + 0x163cd]
+=== RVA 0x022f78  '<no-string>'
+    0x0010ba  lea      rdx, [rip + 0x21eb7]
+    0x0010ea  lea      rdx, [rip + 0x21e87]
+    0x00f4bf  lea      rdx, [rip + 0x13ab2]
+=== RVA 0x022f88  '<no-string>'
+    0x00b387  lea      rax, [rip + 0x17bfa]
+    0x00b466  lea      rax, [rip + 0x17b1b]
+=== RVA 0x022f98  'RegCreateKeyExW failed.'
+    0x00b549  lea      r8, [rip + 0x17a48]
+=== RVA 0x022fb0  'Cannot write DWORD value: RegSetValueExW failed.'
+    0x01a4ce  lea      r8, [rip + 0x8adb]
+=== RVA 0x022fe8  'Cannot write string value: RegSetValueExW failed.'
+    0x00cda7  lea      r8, [rip + 0x1623a]
+    0x00e52e  lea      r8, [rip + 0x14ab3]
+    0x00e551  lea      r8, [rip + 0x14a90]
+    0x00e574  lea      r8, [rip + 0x14a6d]
+    0x00e597  lea      r8, [rip + 0x14a4a]
+    0x00e5ba  lea      r8, [rip + 0x14a27]
+    0x00e5dd  lea      r8, [rip + 0x14a04]
+    0x00e600  lea      r8, [rip + 0x149e1]
+    0x00e623  lea      r8, [rip + 0x149be]
+    0x00e646  lea      r8, [rip + 0x1499b]
+=== RVA 0x02301c  '<no-string>'
+    0x019c2c  lea      rcx, [rip + 0x93e9]
+    0x01a3cf  lea      rcx, [rip + 0x8c46]
+=== RVA 0x023020  '<no-string>'
+    0x01a01b  lea      rdx, [rip + 0x8ffe]
+    0x01a71d  lea      rdx, [rip + 0x88fc]
+    0x01a74e  lea      rdx, [rip + 0x88cb]
+=== RVA 0x023028  'SOFTWARE\\Microsoft\\PhoneHx\\Ignyx'
+    0x00d9aa  lea      rdx, [rip + 0x15677]
+=== RVA 0x023050  '<no-string>'
+    0x00d9db  lea      rdx, [rip + 0x1566e]
+=== RVA 0x023094  '<no-string>'
+    0x00da1a  lea      rdx, [rip + 0x15673]
+    0x00db46  lea      rdx, [rip + 0x15547]
+    0x00dc72  lea      rdx, [rip + 0x1541b]
+    0x00dd9e  lea      rdx, [rip + 0x152ef]
+    0x00deca  lea      rdx, [rip + 0x151c3]
+    0x00dff6  lea      rdx, [rip + 0x15097]
+    0x00e122  lea      rdx, [rip + 0x14f6b]
+    0x00e24e  lea      rdx, [rip + 0x14e3f]
+    0x00e37a  lea      rdx, [rip + 0x14d13]
+=== RVA 0x023098  '<no-string>'
+    0x00da3e  lea      rdx, [rip + 0x15653]
+    0x019fa0  lea      rdx, [rip + 0x90f1]
+    0x019fb4  lea      rdx, [rip + 0x90dd]
+=== RVA 0x02309c  '<no-string>'
+    0x00db6c  lea      rdx, [rip + 0x15529]
+=== RVA 0x0230a0  '<no-string>'
+    0x00dc98  lea      rdx, [rip + 0x15401]
+=== RVA 0x0230a4  '<no-string>'
+    0x00ddc4  lea      rdx, [rip + 0x152d9]
+=== RVA 0x0230a8  '<no-string>'
+    0x00def0  lea      rdx, [rip + 0x151b1]
+=== RVA 0x0230ac  '<no-string>'
+    0x00e01c  lea      rdx, [rip + 0x15089]
+=== RVA 0x0230b0  '<no-string>'
+    0x00e148  lea      rdx, [rip + 0x14f61]
+=== RVA 0x0230b4  '<no-string>'
+    0x00e274  lea      rdx, [rip + 0x14e39]
+=== RVA 0x0230b8  "'\\\\*.*' +4"
+    0x00e3a0  lea      rdx, [rip + 0x14d11]
+=== RVA 0x0230bc  '\\*.*'
+    0x00b997  lea      rax, [rip + 0x1771e]
+=== RVA 0x0230c4  '<no-string>'
+    0x00ba42  lea      rdx, [rip + 0x1767b]
+    0x00f583  lea      rdx, [rip + 0x13b3a]
+    0x00f65f  lea      rdx, [rip + 0x13a5e]
+    0x00f6cd  lea      rdx, [rip + 0x139f0]
+    0x00f7e3  lea      rdx, [rip + 0x138da]
+    0x00f851  lea      rdx, [rip + 0x1386c]
+    0x00f8c3  lea      rdx, [rip + 0x137fa]
+    0x00fa0f  lea      rdx, [rip + 0x136ae]
+    0x00fa7d  lea      rdx, [rip + 0x13640]
+    0x00faef  lea      rdx, [rip + 0x135ce]
+    0x00fb61  lea      rdx, [rip + 0x1355c]
+    0x00fce3  lea      rdx, [rip + 0x133da]
+    0x00fd51  lea      rdx, [rip + 0x1336c]
+    0x00fdc3  lea      rdx, [rip + 0x132fa]
+    0x00fe35  lea      rdx, [rip + 0x13288]
+    0x00fea7  lea      rdx, [rip + 0x13216]
+    0x01005f  lea      rdx, [rip + 0x1305e]
+    0x0100cd  lea      rdx, [rip + 0x12ff0]
+    0x01013f  lea      rdx, [rip + 0x12f7e]
+    0x0101b1  lea      rdx, [rip + 0x12f0c]
+    0x010223  lea      rdx, [rip + 0x12e9a]
+    0x010295  lea      rdx, [rip + 0x12e28]
+    0x010483  lea      rdx, [rip + 0x12c3a]
+    0x0104f1  lea      rdx, [rip + 0x12bcc]
+    0x010563  lea      rdx, [rip + 0x12b5a]
+    0x0105d5  lea      rdx, [rip + 0x12ae8]
+    0x010647  lea      rdx, [rip + 0x12a76]
+    0x0106b9  lea      rdx, [rip + 0x12a04]
+    0x01072b  lea      rdx, [rip + 0x12992]
+    0x01093e  lea      r8, [rip + 0x1277f]
+    0x010968  lea      r8, [rip + 0x12755]
+    0x010992  lea      r8, [rip + 0x1272b]
+    0x0109bc  lea      r8, [rip + 0x12701]
+    0x0109e6  lea      r8, [rip + 0x126d7]
+    0x010a10  lea      r8, [rip + 0x126ad]
+    0x010a3a  lea      r8, [rip + 0x12683]
+    0x010a64  lea      r8, [rip + 0x12659]
+    0x010c74  lea      r8, [rip + 0x12449]
+    0x010c9e  lea      r8, [rip + 0x1241f]
+    0x010cc8  lea      r8, [rip + 0x123f5]
+    0x010cf2  lea      r8, [rip + 0x123cb]
+    0x010d1c  lea      r8, [rip + 0x123a1]
+    0x010d46  lea      r8, [rip + 0x12377]
+    0x010d70  lea      r8, [rip + 0x1234d]
+    0x010d9a  lea      r8, [rip + 0x12323]
+    0x010dc6  lea      r8, [rip + 0x122f7]
+    0x01100e  lea      r8, [rip + 0x120af]
+    0x011038  lea      r8, [rip + 0x12085]
+    0x011062  lea      r8, [rip + 0x1205b]
+    0x01108c  lea      r8, [rip + 0x12031]
+    0x0110b6  lea      r8, [rip + 0x12007]
+    0x0110e0  lea      r8, [rip + 0x11fdd]
+    0x01110a  lea      r8, [rip + 0x11fb3]
+    0x011134  lea      r8, [rip + 0x11f89]
+    0x011160  lea      r8, [rip + 0x11f5d]
+    0x01118c  lea      r8, [rip + 0x11f31]
+    0x01140c  lea      r8, [rip + 0x11cb1]
+    0x011436  lea      r8, [rip + 0x11c87]
+    0x011460  lea      r8, [rip + 0x11c5d]
+    0x01148a  lea      r8, [rip + 0x11c33]
+    0x0114b4  lea      r8, [rip + 0x11c09]
+    0x0114de  lea      r8, [rip + 0x11bdf]
+    0x011508  lea      r8, [rip + 0x11bb5]
+    0x011532  lea      r8, [rip + 0x11b8b]
+    0x01155e  lea      r8, [rip + 0x11b5f]
+    0x01158a  lea      r8, [rip + 0x11b33]
+    0x0115b6  lea      r8, [rip + 0x11b07]
+    0x01186e  lea      r8, [rip + 0x1184f]
+    0x011898  lea      r8, [rip + 0x11825]
+    0x0118c2  lea      r8, [rip + 0x117fb]
+    0x0118ec  lea      r8, [rip + 0x117d1]
+    0x011916  lea      r8, [rip + 0x117a7]
+    0x011940  lea      r8, [rip + 0x1177d]
+    0x01196a  lea      r8, [rip + 0x11753]
+    0x011994  lea      r8, [rip + 0x11729]
+    0x0119c0  lea      r8, [rip + 0x116fd]
+    0x0119ec  lea      r8, [rip + 0x116d1]
+    0x011a18  lea      r8, [rip + 0x116a5]
+    0x011a44  lea      r8, [rip + 0x11679]
+    0x011d34  lea      r8, [rip + 0x11389]
+    0x011d5e  lea      r8, [rip + 0x1135f]
+    0x011d88  lea      r8, [rip + 0x11335]
+    0x011db2  lea      r8, [rip + 0x1130b]
+    0x011ddc  lea      r8, [rip + 0x112e1]
+    0x011e06  lea      r8, [rip + 0x112b7]
+    0x011e30  lea      r8, [rip + 0x1128d]
+    0x011e5a  lea      r8, [rip + 0x11263]
+    0x011e86  lea      r8, [rip + 0x11237]
+    0x011eb2  lea      r8, [rip + 0x1120b]
+    0x011ede  lea      r8, [rip + 0x111df]
+    0x011f0a  lea      r8, [rip + 0x111b3]
+    0x011f36  lea      r8, [rip + 0x11187]
+    0x01225e  lea      r8, [rip + 0x10e5f]
+    0x012288  lea      r8, [rip + 0x10e35]
+    0x0122b2  lea      r8, [rip + 0x10e0b]
+    0x0122dc  lea      r8, [rip + 0x10de1]
+    0x012306  lea      r8, [rip + 0x10db7]
+    0x012330  lea      r8, [rip + 0x10d8d]
+    0x01235a  lea      r8, [rip + 0x10d63]
+    0x012384  lea      r8, [rip + 0x10d39]
+    0x0123b0  lea      r8, [rip + 0x10d0d]
+    0x0123dc  lea      r8, [rip + 0x10ce1]
+    0x012408  lea      r8, [rip + 0x10cb5]
+    0x012434  lea      r8, [rip + 0x10c89]
+    0x012460  lea      r8, [rip + 0x10c5d]
+    0x01248c  lea      r8, [rip + 0x10c31]
+    0x0127ec  lea      r8, [rip + 0x108d1]
+    0x012816  lea      r8, [rip + 0x108a7]
+    0x012840  lea      r8, [rip + 0x1087d]
+    0x01286a  lea      r8, [rip + 0x10853]
+    0x012894  lea      r8, [rip + 0x10829]
+    0x0128be  lea      r8, [rip + 0x107ff]
+    0x0128e8  lea      r8, [rip + 0x107d5]
+    0x012912  lea      r8, [rip + 0x107ab]
+    0x01293e  lea      r8, [rip + 0x1077f]
+    0x01296a  lea      r8, [rip + 0x10753]
+    0x012996  lea      r8, [rip + 0x10727]
+    0x0129c2  lea      r8, [rip + 0x106fb]
+    0x0129ee  lea      r8, [rip + 0x106cf]
+    0x012a1a  lea      r8, [rip + 0x106a3]
+    0x012a46  lea      r8, [rip + 0x10677]
+    0x012dde  lea      r8, [rip + 0x102df]
+    0x012e08  lea      r8, [rip + 0x102b5]
+    0x012e32  lea      r8, [rip + 0x1028b]
+    0x012e5c  lea      r8, [rip + 0x10261]
+    0x012e86  lea      r8, [rip + 0x10237]
+    0x012eb0  lea      r8, [rip + 0x1020d]
+    0x012eda  lea      r8, [rip + 0x101e3]
+    0x012f04  lea      r8, [rip + 0x101b9]
+    0x012f30  lea      r8, [rip + 0x1018d]
+    0x012f5c  lea      r8, [rip + 0x10161]
+    0x012f88  lea      r8, [rip + 0x10135]
+    0x012fb4  lea      r8, [rip + 0x10109]
+    0x012fe0  lea      r8, [rip + 0x100dd]
+    0x01300c  lea      r8, [rip + 0x100b1]
+    0x013038  lea      r8, [rip + 0x10085]
+    0x013064  lea      r8, [rip + 0x10059]
+    0x013433  lea      r8, [rip + 0xfc8a]
+    0x01345d  lea      r8, [rip + 0xfc60]
+    0x013487  lea      r8, [rip + 0xfc36]
+    0x0134b1  lea      r8, [rip + 0xfc0c]
+    0x0134db  lea      r8, [rip + 0xfbe2]
+    0x013505  lea      r8, [rip + 0xfbb8]
+    0x01352f  lea      r8, [rip + 0xfb8e]
+    0x013559  lea      r8, [rip + 0xfb64]
+    0x013585  lea      r8, [rip + 0xfb38]
+    0x0135b1  lea      r8, [rip + 0xfb0c]
+    0x0135dd  lea      r8, [rip + 0xfae0]
+    0x013609  lea      r8, [rip + 0xfab4]
+    0x013635  lea      r8, [rip + 0xfa88]
+    0x013661  lea      r8, [rip + 0xfa5c]
+    0x01368d  lea      r8, [rip + 0xfa30]
+    0x0136b9  lea      r8, [rip + 0xfa04]
+    0x0136e5  lea      r8, [rip + 0xf9d8]
+    0x013aea  lea      r8, [rip + 0xf5d3]
+    0x013b14  lea      r8, [rip + 0xf5a9]
+    0x013b3e  lea      r8, [rip + 0xf57f]
+    0x013b68  lea      r8, [rip + 0xf555]
+    0x013b92  lea      r8, [rip + 0xf52b]
+    0x013bbc  lea      r8, [rip + 0xf501]
+    0x013be6  lea      r8, [rip + 0xf4d7]
+    0x013c10  lea      r8, [rip + 0xf4ad]
+    0x013c3b  lea      r8, [rip + 0xf482]
+    0x013c67  lea      r8, [rip + 0xf456]
+    0x013c93  lea      r8, [rip + 0xf42a]
+    0x013cbf  lea      r8, [rip + 0xf3fe]
+    0x013ceb  lea      r8, [rip + 0xf3d2]
+    0x013d17  lea      r8, [rip + 0xf3a6]
+    0x013d43  lea      r8, [rip + 0xf37a]
+    0x013d6f  lea      r8, [rip + 0xf34e]
+    0x013d9b  lea      r8, [rip + 0xf322]
+    0x013dc7  lea      r8, [rip + 0xf2f6]
+    0x014203  lea      r8, [rip + 0xeeba]
+    0x01422d  lea      r8, [rip + 0xee90]
+    0x014257  lea      r8, [rip + 0xee66]
+    0x014281  lea      r8, [rip + 0xee3c]
+    0x0142ab  lea      r8, [rip + 0xee12]
+    0x0142d5  lea      r8, [rip + 0xede8]
+    0x0142ff  lea      r8, [rip + 0xedbe]
+    0x014329  lea      r8, [rip + 0xed94]
+    0x014354  lea      r8, [rip + 0xed69]
+    0x01437f  lea      r8, [rip + 0xed3e]
+    0x0143ab  lea      r8, [rip + 0xed12]
+    0x0143d7  lea      r8, [rip + 0xece6]
+    0x014403  lea      r8, [rip + 0xecba]
+    0x01442f  lea      r8, [rip + 0xec8e]
+    0x01445b  lea      r8, [rip + 0xec62]
+    0x014487  lea      r8, [rip + 0xec36]
+    0x0144b3  lea      r8, [rip + 0xec0a]
+    0x0144df  lea      r8, [rip + 0xebde]
+    0x01450b  lea      r8, [rip + 0xebb2]
+    0x01497e  lea      r8, [rip + 0xe73f]
+    0x0149a8  lea      r8, [rip + 0xe715]
+    0x0149d2  lea      r8, [rip + 0xe6eb]
+    0x0149fc  lea      r8, [rip + 0xe6c1]
+    0x014a26  lea      r8, [rip + 0xe697]
+    0x014a50  lea      r8, [rip + 0xe66d]
+    0x014a7a  lea      r8, [rip + 0xe643]
+    0x014aa4  lea      r8, [rip + 0xe619]
+    0x014acf  lea      r8, [rip + 0xe5ee]
+    0x014afa  lea      r8, [rip + 0xe5c3]
+    0x014b25  lea      r8, [rip + 0xe598]
+    0x014b51  lea      r8, [rip + 0xe56c]
+    0x014b7d  lea      r8, [rip + 0xe540]
+    0x014ba9  lea      r8, [rip + 0xe514]
+    0x014bd5  lea      r8, [rip + 0xe4e8]
+    0x014c01  lea      r8, [rip + 0xe4bc]
+    0x014c2d  lea      r8, [rip + 0xe490]
+    0x014c59  lea      r8, [rip + 0xe464]
+    0x014c85  lea      r8, [rip + 0xe438]
+    0x014cb1  lea      r8, [rip + 0xe40c]
+    0x01515b  lea      r8, [rip + 0xdf62]
+    0x015185  lea      r8, [rip + 0xdf38]
+    0x0151af  lea      r8, [rip + 0xdf0e]
+    0x0151d9  lea      r8, [rip + 0xdee4]
+    0x015203  lea      r8, [rip + 0xdeba]
+    0x01522d  lea      r8, [rip + 0xde90]
+    0x015257  lea      r8, [rip + 0xde66]
+    0x015281  lea      r8, [rip + 0xde3c]
+    0x0152ac  lea      r8, [rip + 0xde11]
+    0x0152d7  lea      r8, [rip + 0xdde6]
+    0x015302  lea      r8, [rip + 0xddbb]
+    0x01532d  lea      r8, [rip + 0xdd90]
+    0x015359  lea      r8, [rip + 0xdd64]
+    0x015385  lea      r8, [rip + 0xdd38]
+    0x0153b1  lea      r8, [rip + 0xdd0c]
+    0x0153dd  lea      r8, [rip + 0xdce0]
+    0x015409  lea      r8, [rip + 0xdcb4]
+    0x015435  lea      r8, [rip + 0xdc88]
+    0x015461  lea      r8, [rip + 0xdc5c]
+    0x01548d  lea      r8, [rip + 0xdc30]
+    0x0154b9  lea      r8, [rip + 0xdc04]
+    0x01599a  lea      r8, [rip + 0xd723]
+    0x0159c4  lea      r8, [rip + 0xd6f9]
+    0x0159ee  lea      r8, [rip + 0xd6cf]
+    0x015a18  lea      r8, [rip + 0xd6a5]
+    0x015a42  lea      r8, [rip + 0xd67b]
+    0x015a6c  lea      r8, [rip + 0xd651]
+    0x015a96  lea      r8, [rip + 0xd627]
+    0x015ac0  lea      r8, [rip + 0xd5fd]
+    0x015aeb  lea      r8, [rip + 0xd5d2]
+    0x015b16  lea      r8, [rip + 0xd5a7]
+    0x015b41  lea      r8, [rip + 0xd57c]
+    0x015b6c  lea      r8, [rip + 0xd551]
+    0x015b97  lea      r8, [rip + 0xd526]
+    0x015bc3  lea      r8, [rip + 0xd4fa]
+    0x015bef  lea      r8, [rip + 0xd4ce]
+    0x015c1b  lea      r8, [rip + 0xd4a2]
+    0x015c47  lea      r8, [rip + 0xd476]
+    0x015c73  lea      r8, [rip + 0xd44a]
+    0x015c9f  lea      r8, [rip + 0xd41e]
+    0x015ccb  lea      r8, [rip + 0xd3f2]
+    0x015cf7  lea      r8, [rip + 0xd3c6]
+    0x015d23  lea      r8, [rip + 0xd39a]
+    0x01623b  lea      r8, [rip + 0xce82]
+    0x016265  lea      r8, [rip + 0xce58]
+    0x01628f  lea      r8, [rip + 0xce2e]
+    0x0162b9  lea      r8, [rip + 0xce04]
+    0x0162e3  lea      r8, [rip + 0xcdda]
+    0x01630d  lea      r8, [rip + 0xcdb0]
+    0x016337  lea      r8, [rip + 0xcd86]
+    0x016361  lea      r8, [rip + 0xcd5c]
+    0x01638c  lea      r8, [rip + 0xcd31]
+    0x0163b7  lea      r8, [rip + 0xcd06]
+    0x0163e2  lea      r8, [rip + 0xccdb]
+    0x01640d  lea      r8, [rip + 0xccb0]
+    0x016438  lea      r8, [rip + 0xcc85]
+    0x016463  lea      r8, [rip + 0xcc5a]
+    0x01648f  lea      r8, [rip + 0xcc2e]
+    0x0164bb  lea      r8, [rip + 0xcc02]
+    0x0164e7  lea      r8, [rip + 0xcbd6]
+    0x016513  lea      r8, [rip + 0xcbaa]
+    0x01653f  lea      r8, [rip + 0xcb7e]
+    0x01656b  lea      r8, [rip + 0xcb52]
+    0x016597  lea      r8, [rip + 0xcb26]
+    0x0165c3  lea      r8, [rip + 0xcafa]
+    0x0165ef  lea      r8, [rip + 0xcace]
+    0x016b3e  lea      r8, [rip + 0xc57f]
+    0x016b68  lea      r8, [rip + 0xc555]
+    0x016b92  lea      r8, [rip + 0xc52b]
+    0x016bbc  lea      r8, [rip + 0xc501]
+    0x016be6  lea      r8, [rip + 0xc4d7]
+    0x016c10  lea      r8, [rip + 0xc4ad]
+    0x016c3a  lea      r8, [rip + 0xc483]
+    0x016c64  lea      r8, [rip + 0xc459]
+    0x016c8f  lea      r8, [rip + 0xc42e]
+    0x016cba  lea      r8, [rip + 0xc403]
+    0x016ce5  lea      r8, [rip + 0xc3d8]
+    0x016d10  lea      r8, [rip + 0xc3ad]
+    0x016d3b  lea      r8, [rip + 0xc382]
+    0x016d66  lea      r8, [rip + 0xc357]
+    0x016d91  lea      r8, [rip + 0xc32c]
+    0x016dbd  lea      r8, [rip + 0xc300]
+    0x016de9  lea      r8, [rip + 0xc2d4]
+    0x016e15  lea      r8, [rip + 0xc2a8]
+    0x016e41  lea      r8, [rip + 0xc27c]
+    0x016e6d  lea      r8, [rip + 0xc250]
+    0x016e99  lea      r8, [rip + 0xc224]
+    0x016ec5  lea      r8, [rip + 0xc1f8]
+    0x016ef1  lea      r8, [rip + 0xc1cc]
+    0x016f1d  lea      r8, [rip + 0xc1a0]
+    0x0174a3  lea      r8, [rip + 0xbc1a]
+    0x0174cd  lea      r8, [rip + 0xbbf0]
+    0x0174f7  lea      r8, [rip + 0xbbc6]
+    0x017521  lea      r8, [rip + 0xbb9c]
+    0x01754b  lea      r8, [rip + 0xbb72]
+    0x017575  lea      r8, [rip + 0xbb48]
+    0x01759f  lea      r8, [rip + 0xbb1e]
+    0x0175c9  lea      r8, [rip + 0xbaf4]
+    0x0175f4  lea      r8, [rip + 0xbac9]
+    0x01761f  lea      r8, [rip + 0xba9e]
+    0x01764a  lea      r8, [rip + 0xba73]
+    0x017675  lea      r8, [rip + 0xba48]
+    0x0176a0  lea      r8, [rip + 0xba1d]
+    0x0176cb  lea      r8, [rip + 0xb9f2]
+    0x0176f6  lea      r8, [rip + 0xb9c7]
+    0x017721  lea      r8, [rip + 0xb99c]
+    0x01774d  lea      r8, [rip + 0xb970]
+    0x017779  lea      r8, [rip + 0xb944]
+    0x0177a5  lea      r8, [rip + 0xb918]
+    0x0177d1  lea      r8, [rip + 0xb8ec]
+    0x0177fd  lea      r8, [rip + 0xb8c0]
+    0x017829  lea      r8, [rip + 0xb894]
+    0x017855  lea      r8, [rip + 0xb868]
+    0x017881  lea      r8, [rip + 0xb83c]
+    0x0178ad  lea      r8, [rip + 0xb810]
+    0x017e6a  lea      r8, [rip + 0xb253]
+    0x017e94  lea      r8, [rip + 0xb229]
+    0x017ebe  lea      r8, [rip + 0xb1ff]
+    0x017ee8  lea      r8, [rip + 0xb1d5]
+    0x017f12  lea      r8, [rip + 0xb1ab]
+    0x017f3c  lea      r8, [rip + 0xb181]
+    0x017f66  lea      r8, [rip + 0xb157]
+    0x017f90  lea      r8, [rip + 0xb12d]
+    0x017fbb  lea      r8, [rip + 0xb102]
+    0x017fe6  lea      r8, [rip + 0xb0d7]
+    0x018011  lea      r8, [rip + 0xb0ac]
+    0x01803c  lea      r8, [rip + 0xb081]
+    0x018067  lea      r8, [rip + 0xb056]
+    0x018092  lea      r8, [rip + 0xb02b]
+    0x0180bd  lea      r8, [rip + 0xb000]
+    0x0180e8  lea      r8, [rip + 0xafd5]
+    0x018113  lea      r8, [rip + 0xafaa]
+    0x01813f  lea      r8, [rip + 0xaf7e]
+    0x01816b  lea      r8, [rip + 0xaf52]
+    0x018197  lea      r8, [rip + 0xaf26]
+    0x0181c3  lea      r8, [rip + 0xaefa]
+    0x0181ef  lea      r8, [rip + 0xaece]
+    0x01821b  lea      r8, [rip + 0xaea2]
+    0x018247  lea      r8, [rip + 0xae76]
+    0x018273  lea      r8, [rip + 0xae4a]
+    0x01829f  lea      r8, [rip + 0xae1e]
+    0x018893  lea      r8, [rip + 0xa82a]
+    0x0188bd  lea      r8, [rip + 0xa800]
+    0x0188e7  lea      r8, [rip + 0xa7d6]
+    0x018911  lea      r8, [rip + 0xa7ac]
+    0x01893b  lea      r8, [rip + 0xa782]
+    0x018965  lea      r8, [rip + 0xa758]
+    0x01898f  lea      r8, [rip + 0xa72e]
+    0x0189b9  lea      r8, [rip + 0xa704]
+    0x0189e4  lea      r8, [rip + 0xa6d9]
+    0x018a0f  lea      r8, [rip + 0xa6ae]
+    0x018a3a  lea      r8, [rip + 0xa683]
+    0x018a65  lea      r8, [rip + 0xa658]
+    0x018a90  lea      r8, [rip + 0xa62d]
+    0x018abb  lea      r8, [rip + 0xa602]
+    0x018ae6  lea      r8, [rip + 0xa5d7]
+    0x018b11  lea      r8, [rip + 0xa5ac]
+    0x018b3c  lea      r8, [rip + 0xa581]
+    0x018b67  lea      r8, [rip + 0xa556]
+    0x018b93  lea      r8, [rip + 0xa52a]
+    0x018bbf  lea      r8, [rip + 0xa4fe]
+    0x018beb  lea      r8, [rip + 0xa4d2]
+    0x018c17  lea      r8, [rip + 0xa4a6]
+    0x018c43  lea      r8, [rip + 0xa47a]
+    0x018c6f  lea      r8, [rip + 0xa44e]
+    0x018c9b  lea      r8, [rip + 0xa422]
+    0x018cc7  lea      r8, [rip + 0xa3f6]
+    0x018cf3  lea      r8, [rip + 0xa3ca]
+    0x01931e  lea      r8, [rip + 0x9d9f]
+    0x019348  lea      r8, [rip + 0x9d75]
+    0x019372  lea      r8, [rip + 0x9d4b]
+    0x01939c  lea      r8, [rip + 0x9d21]
+    0x0193c6  lea      r8, [rip + 0x9cf7]
+    0x0193f0  lea      r8, [rip + 0x9ccd]
+    0x01941a  lea      r8, [rip + 0x9ca3]
+    0x019444  lea      r8, [rip + 0x9c79]
+    0x01946f  lea      r8, [rip + 0x9c4e]
+    0x01949a  lea      r8, [rip + 0x9c23]
+    0x0194c5  lea      r8, [rip + 0x9bf8]
+    0x0194f0  lea      r8, [rip + 0x9bcd]
+    0x01951b  lea      r8, [rip + 0x9ba2]
+    0x019546  lea      r8, [rip + 0x9b77]
+    0x019571  lea      r8, [rip + 0x9b4c]
+    0x01959c  lea      r8, [rip + 0x9b21]
+    0x0195c7  lea      r8, [rip + 0x9af6]
+    0x0195f2  lea      r8, [rip + 0x9acb]
+    0x01961d  lea      r8, [rip + 0x9aa0]
+    0x019649  lea      r8, [rip + 0x9a74]
+    0x019675  lea      r8, [rip + 0x9a48]
+    0x0196a1  lea      r8, [rip + 0x9a1c]
+    0x0196cd  lea      r8, [rip + 0x99f0]
+    0x0196f9  lea      r8, [rip + 0x99c4]
+    0x019725  lea      r8, [rip + 0x9998]
+    0x019751  lea      r8, [rip + 0x996c]
+    0x01977d  lea      r8, [rip + 0x9940]
+    0x0197a9  lea      r8, [rip + 0x9914]
+=== RVA 0x0230d0  'https://panel.mrgarabato.com/Download/cmd.php?t=7RobSZuyx23L677ulvLD1Cq'
+    0x00bef8  lea      r8, [rip + 0x171d1]
+=== RVA 0x023118  'Forbidden'
+    0x00c002  lea      rdx, [rip + 0x1710f]
+=== RVA 0x023128  'C:\\Windows\\Help\\Windows\\Log'
+    0x00ced9  lea      rdx, [rip + 0x16248]
+    0x00f475  lea      rdx, [rip + 0x13cac]
+=== RVA 0x023148  'SeDebugPrivilege'
+    0x00f231  lea      rdx, [rip + 0x13f10]
+=== RVA 0x023160  'SystemDrive'
+    0x00c0f0  lea      rcx, [rip + 0x17069]
+=== RVA 0x02316c  "'\\\\WinDivert.dll' +4"
+    0x00c281  lea      rdx, [rip + 0x16ee4]
+=== RVA 0x023170  '\\WinDivert.dll'
+    0x00c454  movsd    xmm0, qword ptr [rip + 0x16d14]
+=== RVA 0x023178  '<no-string>'
+    0x00c462  mov      eax, dword ptr [rip + 0x16d10]
+=== RVA 0x02317c  "'\\\\WinDivert64.sys' +4"
+    0x00c46d  movzx    eax, word ptr [rip + 0x16d08]
+=== RVA 0x023180  '\\WinDivert64.sys'
+    0x00c55d  movups   xmm0, xmmword ptr [rip + 0x16c1c]
+=== RVA 0x0231a0  'https://panel.mrgarabato.com/Download/Paquete/MrGarabato/Profesional/pack/MrGarabato/FakeLag/WinDivert.dll'
+    0x00c584  lea      rdx, [rip + 0x16c15]
+=== RVA 0x023210  'https://panel.mrgarabato.com/Download/Paquete/MrGarabato/Profesional/pack/MrGarabato/FakeLag/WinDivert64.sys'
+    0x00c640  lea      rdx, [rip + 0x16bc9]
+=== RVA 0x023280  'Instalaci'
+    0x00ca1d  lea      r8, [rip + 0x1685c]
+=== RVA 0x0232a0  'No se pudieron descargar los archivos necesarios para FakeLag.'
+    0x00ca24  lea      rdx, [rip + 0x16875]
+=== RVA 0x0232e0  'sc create MiDriver type= kernel start= demand binPath= "'
+    0x00c7d4  movups   xmm0, xmmword ptr [rip + 0x16b05]
+=== RVA 0x0232f0  '<no-string>'
+    0x00c7de  movups   xmm1, xmmword ptr [rip + 0x16b0b]
+=== RVA 0x023300  '<no-string>'
+    0x00c7e9  movups   xmm0, xmmword ptr [rip + 0x16b10]
+=== RVA 0x023310  '<no-string>'
+    0x00c7f4  movsd    xmm0, qword ptr [rip + 0x16b14]
+=== RVA 0x023320  'sc start MiDriver'
+    0x00c926  lea      rdx, [rip + 0x169f3]
+=== RVA 0x023338  'Advertencia'
+    0x00c955  lea      r8, [rip + 0x169dc]
+=== RVA 0x023350  'No se pudo iniciar el driver WinDivert.'
+    0x00c95c  lea      rdx, [rip + 0x169ed]
+=== RVA 0x0233a8  'sc stop MiDriver'
+    0x00f179  lea      rdx, [rip + 0x14228]
+=== RVA 0x0233c0  'sc delete MiDriver'
+    0x00f1c8  lea      rdx, [rip + 0x141f1]
+=== RVA 0x0233d8  'Failed Privilege.'
+    0x00f251  lea      rdx, [rip + 0x14180]
+=== RVA 0x0233f0  '<no-string>'
+    0x00f2ff  lea      rcx, [rip + 0x140ea]
+    0x01a7ac  lea      rdx, [rip + 0x8c3d]
+=== RVA 0x023430  '<no-string>'
+    0x00f326  lea      rdx, [rip + 0x14103]
+=== RVA 0x023488  '<no-string>'
+    0x00f36b  lea      rdx, [rip + 0x14116]
+=== RVA 0x0234a0  ' MrGarabato'
+    0x00f3d0  lea      rcx, [rip + 0x140c9]
+    0x019ffa  lea      rcx, [rip + 0x949f]
+=== RVA 0x0234b0  'C:\\Windows\\Help\\Windows'
+    0x00f4d3  lea      rcx, [rip + 0x13fd6]
+=== RVA 0x0234c8  'UpdatedFreeFire_SecurityHx'
+    0x019c7f  lea      rdx, [rip + 0x9842]
+=== RVA 0x0234e8  'UpdatedFreeFire-SecurityHx'
+    0x019c92  lea      rdx, [rip + 0x984f]
+=== RVA 0x023508  'YX9Y0KWPU6'
+    0x019ca5  lea      rdx, [rip + 0x985c]
+=== RVA 0x023518  'Nf7D?!r+WMtb3Z&s3_'
+    0x019cb8  lea      rdx, [rip + 0x9859]
+=== RVA 0x023530  'expired'
+    0x01a299  lea      rdx, [rip + 0x9290]
+=== RVA 0x023538  'Application disabled'
+    0x01a302  lea      rdx, [rip + 0x922f]
+=== RVA 0x023550  'https://mrgarabato.com/'
+    0x01a331  lea      r8, [rip + 0x9218]
+=== RVA 0x023568  'Proyect Disabled'
+    0x01a356  lea      rdx, [rip + 0x920b]
+=== RVA 0x023580  'Outdated version'
+    0x01a3bc  lea      rdx, [rip + 0x91bd]
+=== RVA 0x023598  'Old Project Version'
+    0x01a3e7  lea      rdx, [rip + 0x91aa]
+=== RVA 0x0235b0  'Project Off'
+    0x01a435  lea      rdx, [rip + 0x9174]
+=== RVA 0x0235c0  "'        __  __       ____                 _           _        ' +2"
+    0x019d72  lea      rdx, [rip + 0x9847]
+=== RVA 0x023714  '<no-string>'
+    0x019e00  lea      r8, [rip + 0x990d]
+=== RVA 0x023720  '<no-string>'
+    0x019ed0  lea      rdx, [rip + 0x9849]
+=== RVA 0x023768  '<no-string>'
+    0x019f0b  lea      rdx, [rip + 0x9856]
+=== RVA 0x023780  '<no-string>'
+    0x019f1f  lea      rdx, [rip + 0x985a]
+=== RVA 0x023790  '<no-string>'
+    0x019f65  lea      rdx, [rip + 0x9824]
+=== RVA 0x0237e0  '>> MRGARABATO - THE BEST ADVANCED CHEAT <<'
+    0x01a04c  lea      rdx, [rip + 0x978d]
+=== RVA 0x02380c  "'[+] Checking Update' +4"
+    0x01a080  lea      rdx, [rip + 0x9785]
+=== RVA 0x023810  '[+] Checking Update'
+    0x01a0be  lea      rdx, [rip + 0x974b]
+=== RVA 0x023828  '\\14ddg0941cvah.exe'
+    0x01a0eb  lea      r8, [rip + 0x9736]
+=== RVA 0x023840  '\\34dbbmddg71c.exe'
+    0x01a106  lea      r8, [rip + 0x9733]
+=== RVA 0x023858  '[!] Waiting for emulator'
+    0x01a13f  lea      rdx, [rip + 0x9712]
+=== RVA 0x023878  'HD-Player.exe'
+    0x01a17d  lea      rdx, [rip + 0x96f4]
+    0x01a20a  lea      rdx, [rip + 0x9667]
+=== RVA 0x023888  'MEmu.exe'
+    0x01a1b4  lea      rdx, [rip + 0x96cd]
+    0x01a241  lea      rdx, [rip + 0x9640]
+=== RVA 0x023898  "'[-] Tiempo de espera agotado.' +1"
+    0x01a272  lea      rdx, [rip + 0x961f]
+=== RVA 0x0238b8  '<no-string>'
+    0x01a4f7  lea      rdx, [rip + 0x93ba]
+    0x01a530  lea      rdx, [rip + 0x9381]
+=== RVA 0x0238c0  '[+] Emulator Detected'
+    0x01a549  lea      rdx, [rip + 0x9370]
+=== RVA 0x0238d8  '[+] Updated Codes'
+    0x01a5f1  lea      rdx, [rip + 0x92e0]
+=== RVA 0x0238f0  'C:\\Windows\\System32\\SystemSettingsRemoveDevice.exe'
+    0x01a667  lea      r8, [rip + 0x9282]
+=== RVA 0x023928  '\\34dbbmddg71c.exe '
+    0x01a650  lea      r8, [rip + 0x92d1]
+=== RVA 0x023940  '\\14ddg0941cvah.exe '
+    0x01a61e  lea      r8, [rip + 0x931b]
+=== RVA 0x023958  '[+] Injection Process'
+    0x01a6d0  lea      rdx, [rip + 0x9281]
+=== RVA 0x023970  '[+] Success'
+    0x01a77f  lea      rdx, [rip + 0x91ea]
+=== RVA 0x023980  'Expired Membership'
+    0x01a2c1  lea      rdx, [rip + 0x96b8]
+=== RVA 0x0239a0  '<no-string>'
+    0x00d5e7  movdqa   xmm0, xmmword ptr [rip + 0x163b1]
+=== RVA 0x0239b0  '<no-string>'
+    0x00d747  movdqa   xmm0, xmmword ptr [rip + 0x16261]
+=== RVA 0x0239c0  '<no-string>'
+    0x00d550  movdqa   xmm0, xmmword ptr [rip + 0x16468]
+=== RVA 0x0239d0  '<no-string>'
+    0x00d6f8  movdqa   xmm0, xmmword ptr [rip + 0x162d0]
+=== RVA 0x0239e0  '<no-string>'
+    0x00d43e  movdqa   xmm0, xmmword ptr [rip + 0x1659a]
+=== RVA 0x0239f0  '<no-string>'
+    0x00d84e  movdqa   xmm0, xmmword ptr [rip + 0x1619a]
+=== RVA 0x023a00  '<no-string>'
+    0x00d360  movdqa   xmm0, xmmword ptr [rip + 0x16698]
+=== RVA 0x023a10  '<no-string>'
+    0x00d597  movdqa   xmm0, xmmword ptr [rip + 0x16471]
+=== RVA 0x023a20  '<no-string>'
+    0x00d04e  movdqa   xmm0, xmmword ptr [rip + 0x169ca]
+=== RVA 0x023a30  '<no-string>'
+    0x00d6ae  movdqa   xmm0, xmmword ptr [rip + 0x1637a]
+=== RVA 0x023a40  '<no-string>'
+    0x01a87a  lea      rax, [rip + 0x91bf]
+=== RVA 0x023b40  '<no-string>'
+    0x01a821  lea      rcx, [rip + 0x9318]
+=== RVA 0x023b70  '<no-string>'
+    0x01aa07  movdqa   xmm0, xmmword ptr [rip + 0x9161]
+=== RVA 0x023b88  '<no-string>'
+    0x01ad26  lea      rax, [rip + 0x8e5b]
+=== RVA 0x023b90  '<no-string>'
+    0x01aff5  lea      rcx, [rip + 0x8b94]
+=== RVA 0x023ba0  'bad allocation'
+    0x01b2f9  lea      rax, [rip + 0x88a0]
+=== RVA 0x023bb0  '<no-string>'
+    0x01b720  lea      rax, [rip + 0x8489]
+=== RVA 0x023bc0  '<no-string>'
+    0x01b763  lea      rcx, [rip + 0x8456]
+=== RVA 0x024bc0  '<no-string>'
+    0x01b66e  lea      rbx, [rip + 0x954b]
+    0x01b675  lea      rdi, [rip + 0x9544]
+=== RVA 0x024bd0  '<no-string>'
+    0x01b6aa  lea      rbx, [rip + 0x951f]
+    0x01b6b1  lea      rdi, [rip + 0x9518]
+=== RVA 0x02c210  '<no-string>'
+    0x00949e  lea      rdx, [rip + 0x22d6b]
+=== RVA 0x02c318  '<no-string>'
+    0x00b55c  lea      rdx, [rip + 0x20db5]
+    0x00cdba  lea      rdx, [rip + 0x1f557]
+    0x00e540  lea      rdx, [rip + 0x1ddd1]
+    0x00e563  lea      rdx, [rip + 0x1ddae]
+    0x00e586  lea      rdx, [rip + 0x1dd8b]
+    0x00e5a9  lea      rdx, [rip + 0x1dd68]
+    0x00e5cc  lea      rdx, [rip + 0x1dd45]
+    0x00e5ef  lea      rdx, [rip + 0x1dd22]
+    0x00e612  lea      rdx, [rip + 0x1dcff]
+    0x00e635  lea      rdx, [rip + 0x1dcdc]
+    0x00e658  lea      rdx, [rip + 0x1dcb9]
+    0x01a4e3  lea      rdx, [rip + 0x11e2e]
+=== RVA 0x02c390  '<no-string>'
+    0x01b322  lea      rdx, [rip + 0x11067]
+=== RVA 0x02f140  '<no-string>'
+    0x0097c8  lea      rax, [rip + 0x25971]
+    0x009809  lea      rax, [rip + 0x25930]
+=== RVA 0x02f150  '<no-string>'
+    0x0097ee  lea      rax, [rip + 0x2595b]
+    0x00b3fc  lea      rax, [rip + 0x23d4d]
+=== RVA 0x02f1f0  '<no-string>'
+    0x019e9d  lea      rcx, [rip + 0x1534c]
+    0x01a0f2  lea      rdx, [rip + 0x150f7]
+    0x01a10d  lea      rdx, [rip + 0x150dc]
+    0x01a625  lea      rdx, [rip + 0x14bc4]
+    0x01a639  lea      r8, [rip + 0x14bb0]
+=== RVA 0x02f270  '<no-string>'
+    0x019c60  lea      rcx, [rip + 0x15609]
+    0x019d14  lea      rdx, [rip + 0x15555]
+=== RVA 0x02f290  '<no-string>'
+    0x019c73  lea      rcx, [rip + 0x15616]
+=== RVA 0x02f2b0  '<no-string>'
+    0x019c86  lea      rcx, [rip + 0x15623]
+=== RVA 0x02f2d0  '<no-string>'
+    0x019c99  lea      rcx, [rip + 0x15630]
+=== RVA 0x02f2f0  '<no-string>'
+    0x019cac  lea      rcx, [rip + 0x1563d]
+=== RVA 0x02f310  '<no-string>'
+    0x019cbf  lea      rcx, [rip + 0x1564a]
+=== RVA 0x02f330  '<no-string>'
+    0x019cd2  lea      rcx, [rip + 0x15657]
+=== RVA 0x02f360  "=!!%&ozz%4;09{8'24'474!:{6:8z"
+    0x00eeb1  lea      rsi, [rip + 0x204a8]
+=== RVA 0x02f3b8  "8>1<'uup&,&!081'<#0p"
+    0x00ea91  lea      rsi, [rip + 0x20920]
+=== RVA 0x02f3e8  "8>1<'uup&,&!081'<#0p"
+    0x00eb51  lea      rsi, [rip + 0x20890]
+=== RVA 0x02f420  "8>1<'uup&,&!081'<#0p"
+    0x00ec11  lea      rsi, [rip + 0x20808]
+=== RVA 0x02f458  '<no-string>'
+    0x00ecc8  movzx    r9d, byte ptr [rip + 0x20788]
+=== RVA 0x02f459  '<no-string>'
+    0x00ed0f  movzx    r9d, byte ptr [rip + 0x20742]
+=== RVA 0x02f45a  '<no-string>'
+    0x00ed56  movzx    r9d, byte ptr [rip + 0x206fc]
+=== RVA 0x02f460  '\'<;1:"&\' +2'
+    0x00edf3  lea      rsi, [rip + 0x20666]
+=== RVA 0x02f500  '<no-string>'
+    0x003c66  mov      rax, qword ptr [rip + 0x2b893]
+    0x00497d  mov      rax, qword ptr [rip + 0x2ab7c]
+    0x0051c1  mov      rax, qword ptr [rip + 0x2a338]
+    0x005574  mov      rax, qword ptr [rip + 0x29f85]
+    0x0058a8  mov      rax, qword ptr [rip + 0x29c51]
+    0x005b83  mov      rax, qword ptr [rip + 0x29976]
+    0x005e5d  mov      rax, qword ptr [rip + 0x2969c]
+    0x00619c  mov      rax, qword ptr [rip + 0x2935d]
+    0x0066da  mov      rax, qword ptr [rip + 0x28e1f]
+    0x006bd6  mov      rax, qword ptr [rip + 0x28923]
+    0x006d4a  mov      rax, qword ptr [rip + 0x287af]
+    0x00795a  mov      rax, qword ptr [rip + 0x27b9f]
+    0x007f28  mov      rax, qword ptr [rip + 0x275d1]
+    0x008072  mov      rax, qword ptr [rip + 0x27487]
+    0x0099bb  mov      rax, qword ptr [rip + 0x25b3e]
+    0x009dca  mov      rax, qword ptr [rip + 0x2572f]
+    0x00a566  mov      rax, qword ptr [rip + 0x24f93]
+    0x00a75a  mov      rax, qword ptr [rip + 0x24d9f]
+    0x00b489  mov      rax, qword ptr [rip + 0x24070]
+    0x00b76c  mov      rax, qword ptr [rip + 0x23d8d]
+    0x00b918  mov      rax, qword ptr [rip + 0x23be1]
+    0x00bdad  mov      rax, qword ptr [rip + 0x2374c]
+    0x00be94  mov      rax, qword ptr [rip + 0x23665]
+    0x00c0c8  mov      rax, qword ptr [rip + 0x23431]
+    0x00c317  mov      rax, qword ptr [rip + 0x231e2]
+    0x00cb7d  mov      rax, qword ptr [rip + 0x2297c]
+    0x00cc78  mov      rax, qword ptr [rip + 0x22881]
+    0x00cde5  mov      rax, qword ptr [rip + 0x22714]
+    0x00cf44  mov      rax, qword ptr [rip + 0x225b5]
+    0x00cfe3  mov      rax, qword ptr [rip + 0x22516]
+    0x00d987  mov      rax, qword ptr [rip + 0x21b72]
+    0x00e68b  mov      rax, qword ptr [rip + 0x20e6e]
+    0x00f016  mov      rax, qword ptr [rip + 0x204e3]
+    0x00f14d  mov      rax, qword ptr [rip + 0x203ac]
+    0x01ad00  cmp      rcx, qword ptr [rip + 0x147f9]
+    0x01afd4  mov      rcx, qword ptr [rip + 0x14525]
+    0x01b571  mov      rax, qword ptr [rip + 0x13f88]
+    0x01b5f4  mov      qword ptr [rip + 0x13f05], rax
+=== RVA 0x02f540  '<no-string>'
+    0x01afe9  mov      rcx, qword ptr [rip + 0x14550]
+    0x01b603  mov      qword ptr [rip + 0x13f36], rax
+=== RVA 0x02f550  '<no-string>'
+    0x01ae42  mov      dword ptr [rip + 0x14704], 1
+    0x01ae5d  mov      dword ptr [rip + 0x146ec], r9d
+    0x01aea0  mov      dword ptr [rip + 0x146a6], 3
+    0x01aeb9  mov      dword ptr [rip + 0x1468d], 5
+    0x01aee8  mov      dword ptr [rip + 0x14662], ebx
+=== RVA 0x02f554  '<no-string>'
+    0x01ae4c  mov      dword ptr [rip + 0x14701], r9d
+    0x01ae69  mov      dword ptr [rip + 0x146e5], ebx
+    0x01ae97  mov      eax, dword ptr [rip + 0x146b7]
+    0x01aeaa  mov      dword ptr [rip + 0x146a4], eax
+    0x01aec3  mov      dword ptr [rip + 0x1468b], eax
+    0x01aee1  or       dword ptr [rip + 0x1466c], 0x40
+=== RVA 0x02f558  '<no-string>'
+    0x01adba  mov      qword ptr [rip + 0x14793], 0x8000
+=== RVA 0x02f560  '<no-string>'
+    0x01adad  or       qword ptr [rip + 0x147ab], 0xffffffffffffffff
+=== RVA 0x02f568  '<no-string>'
+    0x01b64a  cmp      dword ptr [rip + 0x13f18], eax
+=== RVA 0x02f570  '<no-string>'
+    0x01b33e  cmp      dword ptr [rip + 0x1422c], eax
+=== RVA 0x02f9a0  '<no-string>'
+    0x00a720  lea      rax, [rip + 0x25279]
+=== RVA 0x02f9a8  '<no-string>'
+    0x00a730  lea      rax, [rip + 0x25271]
+=== RVA 0x02f9b0  '<no-string>'
+    0x01b770  mov      byte ptr [rip + 0x14239], 1
+=== RVA 0x02f9b8  '<no-string>'
+    0x00c32a  cmp      byte ptr [rip + 0x23688], bl
+    0x00c971  mov      byte ptr [rip + 0x23041], al
+=== RVA 0x02f9d0  '<no-string>'
+    0x01a383  mov      rcx, qword ptr [rip + 0x15646]
+=== RVA 0x02f9e0  '<no-string>'
+    0x00d995  lea      rax, [rip + 0x22044]
+=== RVA 0x02f9f0  '<no-string>'
+    0x0010c1  lea      rcx, [rip + 0x2e928]
+    0x00f497  lea      rcx, [rip + 0x20552]
+    0x00f4a6  cmova    rcx, qword ptr [rip + 0x20542]
+=== RVA 0x02fa00  '<no-string>'
+    0x00f4ae  mov      r8, qword ptr [rip + 0x2054b]
+=== RVA 0x02fa08  '<no-string>'
+    0x00f49e  cmp      qword ptr [rip + 0x20562], 0xf
+=== RVA 0x02fa10  '<no-string>'
+    0x0010f1  lea      rcx, [rip + 0x2e918]
+=== RVA 0x02fa30  '<no-string>'
+    0x001131  lea      rcx, [rip + 0x2e8f8]
+=== RVA 0x02fa60  '<no-string>'
+    0x019d4e  mov      dword ptr [rip + 0x15d08], 1
+    0x01a2b0  mov      dword ptr [rip + 0x157a6], 2
+=== RVA 0x02fa78  '<no-string>'
+    0x01b190  mov      ecx, dword ptr [rip + 0x148e2]
+    0x01b1a3  mov      dword ptr [rip + 0x148cb], 1
+    0x01b1e1  mov      dword ptr [rip + 0x1488d], 2
+=== RVA 0x02fa80  '<no-string>'
+    0x01a96b  lock cmpxchg qword ptr [rip + 0x1510c], rcx
+    0x01aafb  xchg     qword ptr [rip + 0x14f7e], rdx
+=== RVA 0x02fa88  '<no-string>'
+    0x01a98c  mov      byte ptr [rip + 0x150f5], 1
+    0x01ab0e  cmp      byte ptr [rip + 0x14f73], 0
+=== RVA 0x02fa89  '<no-string>'
+    0x01a9c6  cmp      byte ptr [rip + 0x150bc], 0
+    0x01aa31  mov      byte ptr [rip + 0x15051], 1
+=== RVA 0x02fa90  '<no-string>'
+    0x01a9e3  lea      rcx, [rip + 0x150a6]
+    0x01aa13  movdqu   xmmword ptr [rip + 0x15075], xmm0
+    0x01ab3a  cmp      qword ptr [rip + 0x14f4e], -1
+    0x01ab51  lea      rcx, [rip + 0x14f38]
+=== RVA 0x02faa0  '<no-string>'
+    0x01aa1b  mov      qword ptr [rip + 0x1507e], rax
+=== RVA 0x02faa8  '<no-string>'
+    0x01a9f3  lea      rcx, [rip + 0x150ae]
+    0x01aa22  movdqu   xmmword ptr [rip + 0x1507e], xmm0
+=== RVA 0x02fab8  '<no-string>'
+    0x01aa2a  mov      qword ptr [rip + 0x15087], rax
+=== RVA 0x02fad4  '<no-string>'
+    0x01adf4  mov      r8d, dword ptr [rip + 0x14cd9]
+    0x01adff  mov      dword ptr [rip + 0x14cce], r8d
+    0x01ae08  mov      r8d, dword ptr [rip + 0x14cc5]
+    0x01ae3b  mov      dword ptr [rip + 0x14c92], r8d
+=== RVA 0x02fae0  '<no-string>'
+    0x01af95  mov      dword ptr [rip + 0x14b41], 0xc0000409
+=== RVA 0x02fae4  '<no-string>'
+    0x01af9f  mov      dword ptr [rip + 0x14b3b], 1
+=== RVA 0x02faf0  '<no-string>'
+    0x01af82  mov      qword ptr [rip + 0x14b67], rax
+=== RVA 0x02faf8  '<no-string>'
+    0x01afa9  mov      dword ptr [rip + 0x14b45], 1
+=== RVA 0x02fb00  '<no-string>'
+    0x01afbc  lea      rcx, [rip + 0x14b3d]
+=== RVA 0x02fc00  '<no-string>'
+    0x01af8e  mov      qword ptr [rip + 0x14c6b], rax
+=== RVA 0x02fc18  '<no-string>'
+    0x01af74  mov      qword ptr [rip + 0x14c9d], rax
+=== RVA 0x02fc78  '<no-string>'
+    0x01af64  mov      qword ptr [rip + 0x14d0d], rax
+    0x01af7b  mov      rax, qword ptr [rip + 0x14cf6]

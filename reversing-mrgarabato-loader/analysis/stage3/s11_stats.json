@@ -1,0 +1,8 @@
+{
+  "lin_instr": 420209,
+  "jmps": 35024,
+  "calls": 468,
+  "calls_direct": 302,
+  "rets": 2264,
+  "subs": 123
+}

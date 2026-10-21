@@ -1,0 +1,26 @@
+Symbols:
+ Address  Name  Size  
+
+
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+Disassembled native (x86-64) code (7 instructions):
+00084d83:  41 33 fa                          xor    edi, r10d
+00084d86:  49 f7 c0 3e 2d de 5a              test   r8, 0x5ade2d3e
+00084d8d:  0f cf                             bswap  edi
+00084d8f:  44 84 e1                          test   cl, r12b
+00084d92:  f9                                stc    
+00084d93:  81 ef 77 7b 17 25                 sub    edi, 0x25177b77
+00084d99:  e9 63 5e 04 00                    jmp    0xcac01
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+
+Analyzed x86-64 code: 7 instructions
+Analyzed RREIL code: 45 instructions
+Analysis steps: 46  ≈1 iterations/instruction
+Max iterations to fixpoint: 2
+Widening points: 0 @ {}
+Warnings: 0
+
+Warnings: 0
+

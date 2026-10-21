@@ -1,0 +1,25 @@
+bulk_extractor version: 1.6.1
+Hostname: cheraxxx
+Input file: mem_bypass.bin
+Output directory: deep_out/bulk_mem
+Disk Size: 16334848
+Threads: 8
+Attempt to open mem_bypass.bin
+All data are read; waiting for threads to finish...
+Time elapsed waiting for 1 thread to finish:
+     (timeout in 60 min.)
+Time elapsed waiting for 1 thread to finish:
+    6 sec (timeout in 59 min54 sec.)
+Thread 7: Processing 0
+
+All Threads Finished!
+Producer time spent waiting: 0 sec.
+Average consumer time spent waiting: 9.91145 sec.
+MD5 of Disk Image: 44c4e91859ccb9aa98fa9144df4015c9
+Phase 2. Shutting down scanners
+Phase 3. Creating Histograms
+Elapsed time: 11.3728 sec.
+Total MB processed: 16
+Overall performance: 1.43631 MBytes/sec (0.179539 MBytes/sec/thread)
+Total email features found: 0
+rc=0

@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/sbin/unblob", line 3, in <module>
+    from unblob.cli import main
+  File "/usr/lib/python3.14/site-packages/unblob/cli.py", line 30, in <module>
+    from .handlers import BUILTIN_DIR_HANDLERS, BUILTIN_HANDLERS
+  File "/usr/lib/python3.14/site-packages/unblob/handlers/__init__.py", line 32, in <module>
+    from .compression import (
+    ...<15 lines>...
+    )
+  File "/usr/lib/python3.14/site-packages/unblob/handlers/compression/lzfse_handler.py", line 7, in <module>
+    import lzfse
+ModuleNotFoundError: No module named 'lzfse'

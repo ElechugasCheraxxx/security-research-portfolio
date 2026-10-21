@@ -1,0 +1,9 @@
+Symbols:
+ Address  Name  Size  
+
+
+Exception in thread "main" com.beust.jcommander.ParameterException: Unimplemented functionality for parameter:sumarization
+	at cli.Bindead.analyze(Bindead.java:403)
+	at cli.Bindead.processFile(Bindead.java:267)
+	at cli.Bindead.process(Bindead.java:248)
+	at cli.Bindead.main(Bindead.java:216)

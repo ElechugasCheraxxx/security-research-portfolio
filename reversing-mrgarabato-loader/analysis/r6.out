@@ -1,0 +1,7 @@
+--- DMI en el namespace ---
+  sys_vendor      : Dell Inc.
+  product_name    : XPS 8960
+  bios_vendor     : Dell Inc.
+  bios_version    : 2.14.1
+  chassis_vendor  : Dell Inc.
+--- ejecutando: env WINEDEBUG=+relay wine C:\work\MrGarabato-ByPassEmulator.exe ---

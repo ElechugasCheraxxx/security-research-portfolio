@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/sbin/floss", line 3, in <module>
+    from floss.main import main
+  File "/usr/lib/python3.14/site-packages/floss/main.py", line 28, in <module>
+    import floss.render.default
+  File "/usr/lib/python3.14/site-packages/floss/render/default.py", line 28, in <module>
+    import floss.utils as util
+  File "/usr/lib/python3.14/site-packages/floss/utils.py", line 32, in <module>
+    import vivisect
+  File "/usr/lib/python3.14/site-packages/vivisect/__init__.py", line 32, in <module>
+    import vstruct
+ModuleNotFoundError: No module named 'vstruct'

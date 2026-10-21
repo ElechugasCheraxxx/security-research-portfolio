@@ -1,0 +1,8 @@
+{
+  "instructions_alcanzables": 211140,
+  "bytes_alcanzables": 689997,
+  "bloques": 32038,
+  "aristas": 29010,
+  "nodos_aplanado_indeg5": 21,
+  "bloques_ret": 2017
+}

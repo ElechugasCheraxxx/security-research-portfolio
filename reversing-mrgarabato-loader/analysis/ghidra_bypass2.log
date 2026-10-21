@@ -1,0 +1,357 @@
+openjdk version "27" 2026-09-15
+OpenJDK Runtime Environment (build 27)
+OpenJDK 64-Bit Server VM (build 27, mixed mode)
+INFO  Using log config file: jar:file:/opt/ghidra/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml (LoggingInitialization)  
+INFO  Using log file: /root/.config/ghidra/ghidra_12.1.2_DEV/application.log (LoggingInitialization)  
+INFO  Loading user preferences: /root/.config/ghidra/ghidra_12.1.2_DEV/preferences (Preferences)  
+INFO  Searching for classes... (ClassSearcher)  
+INFO  Class search complete (8804 ms) (ClassSearcher)  
+WARNING: Final field name in class ghidra.util.charset.CharsetInfo has been mutated reflectively by class com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$2 in unnamed module @7c24b813 (file:/opt/ghidra/Ghidra/Framework/Generic/lib/gson-2.13.2.jar)
+WARNING: Use --enable-final-field-mutation=ALL-UNNAMED to avoid a warning
+WARNING: Mutating final fields will be blocked in a future release unless final field mutation is enabled
+INFO  Initializing SSL Context (DefaultSSLContextInitializer)  
+INFO  Initializing Random Number Generator... (SecureRandomFactory)  
+INFO  Random Number Generator initialization complete: NativePRNGNonBlocking (SecureRandomFactory)  
+INFO  Trust manager disabled, cacerts have not been set (DefaultTrustManagerFactory)  
+INFO  Headless startup complete (25529 ms) (AnalyzeHeadless)  
+INFO  Class searcher loaded 59 extension points (20 false positives) (ClassSearcher)  
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::staticFieldOffset has been called by org.apache.felix.framework.util.SecureAction (file:/opt/ghidra/Ghidra/Features/Base/lib/org.apache.felix.framework-7.0.5.jar)
+WARNING: Please consider reporting this to the maintainers of class org.apache.felix.framework.util.SecureAction
+WARNING: sun.misc.Unsafe::staticFieldOffset will be removed in a future release
+INFO  HEADLESS Script Paths:
+    /opt/ghidra/Ghidra/Features/SystemEmulation/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/GnuDemangler/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/WildcardAssembler/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/DATA/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/DecompilerDependent/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/JVM/ghidra_scripts
+    /opt/ghidra/Ghidra/Debug/Debugger-rmi-trace/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/MicrosoftCodeAnalyzer/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/VersionTracking/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/PyGhidra/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/SwiftDemangler/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/Base/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/Atmel/ghidra_scripts
+    /opt/ghidra/Ghidra/Debug/Debugger/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/Decompiler/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/FunctionID/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/PDB/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/8051/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/PIC/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/FileFormats/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/BSim/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/BytePatterns/ghidra_scripts (HeadlessAnalyzer)  
+INFO  HEADLESS: execution starts (HeadlessAnalyzer)  
+INFO  Creating project: /tmp/opencode/ghidra_proj/MG2 (HeadlessAnalyzer)  
+INFO  Creating project: /tmp/opencode/ghidra_proj/MG2 (DefaultProject)  
+INFO  REPORT: Processing input files:  (HeadlessAnalyzer)  
+INFO       project: /tmp/opencode/ghidra_proj/MG2 (HeadlessAnalyzer)  
+INFO  IMPORTING: file:///root/mrgarabato_analysis/run/unpacked_bypass.exe (HeadlessAnalyzer)  
+INFO  Using Loader: Portable Executable (PE) (ProgramLoader)  
+INFO  Using Language/Compiler: x86:LE:64:default:windows (ProgramLoader)  
+INFO  Using Library Search Path: [., /bin, /lib, /lib64, /lib/x86_64-linux-gnu, /lib/aarch64-linux-gnu, /usr/bin, /usr/lib, /usr/X11R6/bin, /usr/X11R6/lib, /usr/java/packages/lib, /usr/lib64] (ProgramLoader)  
+INFO  TLS callbacks at 0 (TLSDirectory)  
+WARN  Invalid or missing function at 140979778 (ExportDataDirectory)  
+INFO  Additional info:
+Loading file:///root/mrgarabato_analysis/run/unpacked_bypass.exe?MD5=679b8a597f97821431c4063a9e54676e...
+------------------------------------------------
+
+Searching 7 paths for library ADVAPI32.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 7 paths for library API-MS-WIN-CRT-HEAP-L1-1-0.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 7 paths for library API-MS-WIN-CRT-LOCALE-L1-1-0.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 7 paths for library API-MS-WIN-CRT-MATH-L1-1-0.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 7 paths for library API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 7 paths for library API-MS-WIN-CRT-STDIO-L1-1-0.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 7 paths for library API-MS-WIN-CRT-STRING-L1-1-0.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 7 paths for library API-MS-WIN-CRT-TIME-L1-1-0.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 7 paths for library API-MS-WIN-CRT-UTILITY-L1-1-0.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 7 paths for library KERNEL32.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 7 paths for library MSVCP140.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 7 paths for library NTDLL.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 7 paths for library SHELL32.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 7 paths for library SHLWAPI.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 7 paths for library URLMON.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 7 paths for library USER32.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 7 paths for library VCRUNTIME140.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 7 paths for library VCRUNTIME140_1.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 7 paths for library WINHTTP.DLL...
+Library not found.
+------------------------------------------------
+
+Linking the External Programs of 'unpacked_bypass.exe' to imported libraries...
+  [KERNEL32.DLL] -> not found in project
+  [USER32.DLL] -> not found in project
+  [ADVAPI32.DLL] -> not found in project
+  [SHELL32.DLL] -> not found in project
+  [MSVCP140.DLL] -> not found in project
+  [WINHTTP.DLL] -> not found in project
+  [SHLWAPI.DLL] -> not found in project
+  [NTDLL.DLL] -> not found in project
+  [URLMON.DLL] -> not found in project
+  [VCRUNTIME140.DLL] -> not found in project
+  [VCRUNTIME140_1.DLL] -> not found in project
+  [API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL] -> not found in project
+  [API-MS-WIN-CRT-STDIO-L1-1-0.DLL] -> not found in project
+  [API-MS-WIN-CRT-HEAP-L1-1-0.DLL] -> not found in project
+  [API-MS-WIN-CRT-TIME-L1-1-0.DLL] -> not found in project
+  [API-MS-WIN-CRT-UTILITY-L1-1-0.DLL] -> not found in project
+  [API-MS-WIN-CRT-STRING-L1-1-0.DLL] -> not found in project
+  [API-MS-WIN-CRT-LOCALE-L1-1-0.DLL] -> not found in project
+  [API-MS-WIN-CRT-MATH-L1-1-0.DLL] -> not found in project
+------------------------------------------------
+
+ (ProgramLoader)  
+INFO  IMPORTING: Loaded 0 additional files (HeadlessAnalyzer)  
+INFO  ANALYZING all memory and code: file:///root/mrgarabato_analysis/run/unpacked_bypass.exe (HeadlessAnalyzer)  
+WARN  Ignoring leading '_' chars on no-return name '___raise_securityfailure' specified in file: /opt/ghidra/Ghidra/Features/Base/data/PEFunctionsThatDoNotReturn (NoReturnFunctionAnalyzer)  
+WARN  Ignoring leading '_' chars on no-return name '___report_rangecheckfailure' specified in file: /opt/ghidra/Ghidra/Features/Base/data/PEFunctionsThatDoNotReturn (NoReturnFunctionAnalyzer)  
+INFO  Skipping PDB processing: missing PDB information in program metadata (PdbUniversalAnalyzer)  
+WARN  More than 100 address segments have been created! (AddressMapDB)  
+ERROR Failed to create function at 140285211 since its body contains referring thunk at 14028520c (CreateFunctionCmd)  
+WARN  WARNING! Removing function with bad body at 140023360 (ClearFlowAndRepairCmd)  
+WARN  WARNING! Removing function with bad body at 140025830 (ClearFlowAndRepairCmd)  
+WARN  WARNING! Removing function with bad body at 140026160 (ClearFlowAndRepairCmd)  
+WARN  WARNING! Removing function with bad body at 140026fb0 (ClearFlowAndRepairCmd)  
+WARN  WARNING! Removing function with bad body at 140027e80 (ClearFlowAndRepairCmd)  
+WARN  WARNING! Removing function with bad body at 14002cf60 (ClearFlowAndRepairCmd)  
+WARN  WARNING! Removing function with bad body at 14002d6b0 (ClearFlowAndRepairCmd)  
+WARN  WARNING! Removing function with bad body at 1400292e0 (ClearFlowAndRepairCmd)  
+WARN  WARNING! Removing function with bad body at 140035b50 (ClearFlowAndRepairCmd)  
+WARN  WARNING! Removing function with bad body at 140035c10 (ClearFlowAndRepairCmd)  
+WARN  WARNING! Removing function with bad body at 1400367f0 (ClearFlowAndRepairCmd)  
+WARN  WARNING! Removing function with bad body at 140036dd0 (ClearFlowAndRepairCmd)  
+WARN  WARNING! Removing function with bad body at 14003a240 (ClearFlowAndRepairCmd)  
+WARN  WARNING! Removing function with bad body at 1400478f0 (ClearFlowAndRepairCmd)  
+WARN  WARNING! Removing function with bad body at 140047bf0 (ClearFlowAndRepairCmd)  
+WARN  WARNING! Removing function with bad body at 140047ee0 (ClearFlowAndRepairCmd)  
+WARN  WARNING! Removing function with bad body at 140805b18 (ClearFlowAndRepairCmd)  
+WARN  WARNING! Removing function with bad body at 140805afe (ClearFlowAndRepairCmd)  
+WARN  WARNING! Removing function with bad body at 140805aff (ClearFlowAndRepairCmd)  
+WARN  WARNING! Removing function with bad body at 140805b19 (ClearFlowAndRepairCmd)  
+WARN  WARNING! Removing function with bad body at 140805b1a (ClearFlowAndRepairCmd)  
+WARN  WARNING! Removing function with bad body at 140805b7e (ClearFlowAndRepairCmd)  
+WARN  WARNING! Removing function with bad body at 140805b7f (ClearFlowAndRepairCmd)  
+WARN  WARNING! Removing function with bad body at 140805b80 (ClearFlowAndRepairCmd)  
+WARN  WARNING! Removing function with bad body at 140806574 (ClearFlowAndRepairCmd)  
+WARN  WARNING! Removing function with bad body at 140807084 (ClearFlowAndRepairCmd)  
+WARN  WARNING! Removing function with bad body at 140807117 (ClearFlowAndRepairCmd)  
+WARN  WARNING! Removing function with bad body at 14080746a (ClearFlowAndRepairCmd)  
+WARN  WARNING! Removing function with bad body at 140807533 (ClearFlowAndRepairCmd)  
+WARN  WARNING! Removing function with bad body at 140807589 (ClearFlowAndRepairCmd)  
+WARN  WARNING! Removing function with bad body at 14080a65d (ClearFlowAndRepairCmd)  
+WARN  WARNING! Removing function with bad body at 14080a7a3 (ClearFlowAndRepairCmd)  
+WARN  WARNING! Removing function with bad body at 14080e241 (ClearFlowAndRepairCmd)  
+WARN  WARNING! Removing function with bad body at 14080e249 (ClearFlowAndRepairCmd)  
+WARN  WARNING! Removing function with bad body at 14080e251 (ClearFlowAndRepairCmd)  
+WARN  WARNING! Repairing body of function at 140023620 (ClearFlowAndRepairCmd)  
+WARN  WARNING! Repairing body of function at 140023750 (ClearFlowAndRepairCmd)  
+WARN  WARNING! Repairing body of function at 1400239b0 (ClearFlowAndRepairCmd)  
+ERROR ... function body repair failed due to overlap with another function: 1400239b0 (ClearFlowAndRepairCmd)  
+WARN  WARNING! Repairing body of function at 140023e10 (ClearFlowAndRepairCmd)  
+WARN  WARNING! Repairing body of function at 140024140 (ClearFlowAndRepairCmd)  
+WARN  WARNING! Repairing body of function at 140024360 (ClearFlowAndRepairCmd)  
+ERROR ... function body repair failed due to overlap with another function: 140024360 (ClearFlowAndRepairCmd)  
+WARN  WARNING! Repairing body of function at 140024660 (ClearFlowAndRepairCmd)  
+ERROR ... function body repair failed due to overlap with another function: 140024660 (ClearFlowAndRepairCmd)  
+WARN  WARNING! Repairing body of function at 140025320 (ClearFlowAndRepairCmd)  
+WARN  WARNING! Repairing body of function at 140024f00 (ClearFlowAndRepairCmd)  
+ERROR ... function body repair failed due to overlap with another function: 140024f00 (ClearFlowAndRepairCmd)  
+WARN  WARNING! Repairing body of function at 140025100 (ClearFlowAndRepairCmd)  
+ERROR ... function body repair failed due to overlap with another function: 140025100 (ClearFlowAndRepairCmd)  
+WARN  WARNING! Repairing body of function at 1400259c0 (ClearFlowAndRepairCmd)  
+ERROR ... function body repair failed due to overlap with another function: 1400259c0 (ClearFlowAndRepairCmd)  
+WARN  WARNING! Repairing body of function at 140025fe0 (ClearFlowAndRepairCmd)  
+ERROR ... function body repair failed due to overlap with another function: 140025fe0 (ClearFlowAndRepairCmd)  
+WARN  WARNING! Repairing body of function at 14002600e (ClearFlowAndRepairCmd)  
+ERROR ... function body repair failed due to overlap with another function: 14002600e (ClearFlowAndRepairCmd)  
+WARN  WARNING! Repairing body of function at 14002606d (ClearFlowAndRepairCmd)  
+ERROR ... function body repair failed due to overlap with another function: 14002606d (ClearFlowAndRepairCmd)  
+WARN  WARNING! Repairing body of function at 140028ae0 (ClearFlowAndRepairCmd)  
+WARN  WARNING! Repairing body of function at 140035b90 (ClearFlowAndRepairCmd)  
+ERROR ... function body repair failed due to overlap with another function: 140035b90 (ClearFlowAndRepairCmd)  
+WARN  WARNING! Repairing body of function at 14002b230 (ClearFlowAndRepairCmd)  
+WARN  WARNING! Repairing body of function at 14002b320 (ClearFlowAndRepairCmd)  
+WARN  WARNING! Repairing body of function at 14002ce70 (ClearFlowAndRepairCmd)  
+WARN  WARNING! Repairing body of function at 14002d220 (ClearFlowAndRepairCmd)  
+ERROR ... function body repair failed due to overlap with another function: 14002d220 (ClearFlowAndRepairCmd)  
+WARN  WARNING! Repairing body of function at 14002d580 (ClearFlowAndRepairCmd)  
+WARN  WARNING! Repairing body of function at 14002df30 (ClearFlowAndRepairCmd)  
+ERROR ... function body repair failed due to overlap with another function: 14002df30 (ClearFlowAndRepairCmd)  
+WARN  WARNING! Repairing body of function at 140030c10 (ClearFlowAndRepairCmd)  
+ERROR ... function body repair failed due to overlap with another function: 140030c10 (ClearFlowAndRepairCmd)  
+WARN  WARNING! Repairing body of function at 140031560 (ClearFlowAndRepairCmd)  
+ERROR ... function body repair failed due to overlap with another function: 140031560 (ClearFlowAndRepairCmd)  
+WARN  WARNING! Repairing body of function at 140031df0 (ClearFlowAndRepairCmd)  
+ERROR ... function body repair failed due to overlap with another function: 140031df0 (ClearFlowAndRepairCmd)  
+WARN  WARNING! Repairing body of function at 1400476c0 (ClearFlowAndRepairCmd)  
+ERROR ... function body repair failed due to overlap with another function: 1400476c0 (ClearFlowAndRepairCmd)  
+WARN  WARNING! Repairing body of function at 140035980 (ClearFlowAndRepairCmd)  
+ERROR ... function body repair failed due to overlap with another function: 140035980 (ClearFlowAndRepairCmd)  
+WARN  WARNING! Repairing body of function at 140035a30 (ClearFlowAndRepairCmd)  
+ERROR ... function body repair failed due to overlap with another function: 140035a30 (ClearFlowAndRepairCmd)  
+WARN  WARNING! Repairing body of function at 140035bd0 (ClearFlowAndRepairCmd)  
+WARN  WARNING! Repairing body of function at 140035db0 (ClearFlowAndRepairCmd)  
+ERROR ... function body repair failed due to overlap with another function: 140035db0 (ClearFlowAndRepairCmd)  
+WARN  WARNING! Repairing body of function at 1400362f0 (ClearFlowAndRepairCmd)  
+ERROR ... function body repair failed due to overlap with another function: 1400362f0 (ClearFlowAndRepairCmd)  
+WARN  WARNING! Repairing body of function at 1400369e0 (ClearFlowAndRepairCmd)  
+ERROR ... function body repair failed due to overlap with another function: 1400369e0 (ClearFlowAndRepairCmd)  
+WARN  WARNING! Repairing body of function at 140036af0 (ClearFlowAndRepairCmd)  
+ERROR ... function body repair failed due to overlap with another function: 140036af0 (ClearFlowAndRepairCmd)  
+WARN  WARNING! Repairing body of function at 1400379d0 (ClearFlowAndRepairCmd)  
+ERROR ... function body repair failed due to overlap with another function: 1400379d0 (ClearFlowAndRepairCmd)  
+WARN  WARNING! Repairing body of function at 1400376a0 (ClearFlowAndRepairCmd)  
+ERROR ... function body repair failed due to overlap with another function: 1400376a0 (ClearFlowAndRepairCmd)  
+WARN  WARNING! Repairing body of function at 14003a43d (ClearFlowAndRepairCmd)  
+ERROR ... function body repair failed due to overlap with another function: 14003a43d (ClearFlowAndRepairCmd)  
+WARN  WARNING! Repairing body of function at 14003a45c (ClearFlowAndRepairCmd)  
+ERROR ... function body repair failed due to overlap with another function: 14003a45c (ClearFlowAndRepairCmd)  
+WARN  WARNING! Repairing body of function at 14012b686 (ClearFlowAndRepairCmd)  
+ERROR ... function body repair failed due to overlap with another function: 14012b686 (ClearFlowAndRepairCmd)  
+WARN  WARNING! Repairing body of function at 14012b6b9 (ClearFlowAndRepairCmd)  
+ERROR ... function body repair failed due to overlap with another function: 14012b6b9 (ClearFlowAndRepairCmd)  
+WARN  WARNING! Repairing body of function at 14012b6f9 (ClearFlowAndRepairCmd)  
+ERROR ... function body repair failed due to overlap with another function: 14012b6f9 (ClearFlowAndRepairCmd)  
+WARN  WARNING! Repairing body of function at 14012b70e (ClearFlowAndRepairCmd)  
+ERROR ... function body repair failed due to overlap with another function: 14012b70e (ClearFlowAndRepairCmd)  
+WARN  WARNING! Repairing body of function at 1401665f7 (ClearFlowAndRepairCmd)  
+ERROR ... function body repair failed due to overlap with another function: 1401665f7 (ClearFlowAndRepairCmd)  
+WARN  WARNING! Repairing body of function at 140166614 (ClearFlowAndRepairCmd)  
+ERROR ... function body repair failed due to overlap with another function: 140166614 (ClearFlowAndRepairCmd)  
+WARN  WARNING! Repairing body of function at 1401fd5b9 (ClearFlowAndRepairCmd)  
+ERROR ... function body repair failed due to overlap with another function: 1401fd5b9 (ClearFlowAndRepairCmd)  
+WARN  WARNING! Repairing body of function at 1401fd615 (ClearFlowAndRepairCmd)  
+ERROR ... function body repair failed due to overlap with another function: 1401fd615 (ClearFlowAndRepairCmd)  
+WARN  WARNING! Repairing body of function at 1401fd637 (ClearFlowAndRepairCmd)  
+ERROR ... function body repair failed due to overlap with another function: 1401fd637 (ClearFlowAndRepairCmd)  
+WARN  WARNING! Repairing body of function at 1402d57e0 (ClearFlowAndRepairCmd)  
+ERROR ... function body repair failed due to overlap with another function: 1402d57e0 (ClearFlowAndRepairCmd)  
+WARN  WARNING! Repairing body of function at 140805afd (ClearFlowAndRepairCmd)  
+ERROR ... function body repair failed due to overlap with another function: 140805afd (ClearFlowAndRepairCmd)  
+WARN  WARNING! Repairing body of function at 140807048 (ClearFlowAndRepairCmd)  
+ERROR ... function body repair failed due to overlap with another function: 140807048 (ClearFlowAndRepairCmd)  
+WARN  WARNING! Repairing body of function at 14080707a (ClearFlowAndRepairCmd)  
+ERROR ... function body repair failed due to overlap with another function: 14080707a (ClearFlowAndRepairCmd)  
+WARN  WARNING! Repairing body of function at 14080e21e (ClearFlowAndRepairCmd)  
+ERROR ... function body repair failed due to overlap with another function: 14080e21e (ClearFlowAndRepairCmd)  
+WARN  Decompiling 14023f3c5, pcode error at 14023f37d: Unable to resolve constructor at 14023f37d (DecompileCallback)  
+WARN  Decompiling 1401d5776, pcode error at 14028c7ce: Unable to resolve constructor at 14028c7ce (DecompileCallback)  
+WARN  Decompiling 140260147, pcode error at 14011e41b: Unable to resolve constructor at 14011e41b (DecompileCallback)  
+WARN  Decompiling 140260147, pcode error at 14014b68b: Unable to resolve constructor at 14014b68b (DecompileCallback)  
+WARN  Decompiling 14011d6c0, pcode error at 14011dfe5: Unable to resolve constructor at 14011dfe5 (DecompileCallback)  
+WARN  Decompiling 14011d6c0, pcode error at 1401cb825: Unable to resolve constructor at 1401cb825 (DecompileCallback)  
+WARN  Decompiling 1401d0e8a, pcode error at 1401d0ebc: Unable to resolve constructor at 1401d0ebc (DecompileCallback)  
+WARN  Decompiling 140236853, pcode error at 140236878: Unable to resolve constructor at 140236878 (DecompileCallback)  
+WARN  Decompiling 140236853, pcode error at 140236915: Unable to resolve constructor at 140236915 (DecompileCallback)  
+WARN  Decompiling 140236853, pcode error at 140236932: Unable to resolve constructor at 140236932 (DecompileCallback)  
+WARN  Decompiling 14011d6c0, pcode error at 1402021f7: Unable to resolve constructor at 1402021f7 (DecompileCallback)  
+WARN  Decompiling 14011d6c0, pcode error at 14014ef53: Unable to resolve constructor at 14014ef53 (DecompileCallback)  
+WARN  Decompiling 1401c6e0e, pcode error at 1401c6e95: Unable to resolve constructor at 1401c6e95 (DecompileCallback)  
+WARN  Decompiling 14011d6c0, pcode error at 14014eef4: Unable to resolve constructor at 14014eef4 (DecompileCallback)  
+WARN  Decompiling 14002c560: Unable to read bytes at ram:142042101 (DecompileCallback)  
+WARN  Decompiling 14002c560, pcode error at 14002200f: Unable to resolve constructor at 14002200f (DecompileCallback)  
+WARN  Decompiling 14011d6c0, pcode error at 14015bca0: Unable to resolve constructor at 14015bca0 (DecompileCallback)  
+WARN  Decompiling 14011d6c0, pcode error at 14015bceb: Unable to resolve constructor at 14015bceb (DecompileCallback)  
+WARN  Decompiling 14011d6c0, pcode error at 140229a48: Unable to resolve constructor at 140229a48 (DecompileCallback)  
+WARN  Decompiling 14002c560: Unable to read bytes at ram:142042101 (DecompileCallback)  
+WARN  Decompiling 14002c560, pcode error at 14002200f: Unable to resolve constructor at 14002200f (DecompileCallback)  
+INFO  Packed database cache: /var/tmp/root-ghidra/packed-db-cache (PackedDatabaseCache)  
+ERROR Failed to disassemble at 140009600 (EHDataTypeUtilities)  
+INFO  Applied data type archive: windows_vs12_64 (ApplyDataArchiveAnalyzer)  
+INFO  Applied data type archive: windows_vs12_64 (ApplyDataArchiveAnalyzer)  
+ERROR Could not create Data at address 140047320 (DemangledVariable)  
+ERROR Could not create Data at address 140047361 (DemangledVariable)  
+INFO  -----------------------------------------------------
+    ASCII Strings                              6.904 secs
+    Apply Data Archives                        1.677 secs
+    Call Convention ID                         1.904 secs
+    Call-Fixup Installer                      27.743 secs
+    Create Address Tables                      1.061 secs
+    Create Address Tables - One Time           8.951 secs
+    Create Function                           24.796 secs
+    Data Reference                             4.668 secs
+    Decompiler Switch Analysis                16.613 secs
+    Demangler Microsoft                        0.526 secs
+    Disassemble                                0.031 secs
+    Disassemble Entry Points                  55.022 secs
+    Embedded Media                             0.912 secs
+    External Entry References                  0.002 secs
+    Function ID                               49.676 secs
+    Function Start Search                      1.543 secs
+    Non-Returning Functions - Discovered     448.322 secs
+    Non-Returning Functions - Known            0.094 secs
+    PDB Universal                              0.016 secs
+    Reference                                  3.464 secs
+    Scalar Operand References                117.608 secs
+    Shared Return Calls                        5.822 secs
+    Stack                                    339.875 secs
+    Subroutine References                      3.786 secs
+    Subroutine References - One Time           0.002 secs
+    Windows x86 PE Exception Handling          0.081 secs
+    Windows x86 PE RTTI Analyzer              14.357 secs
+    Windows x86 Thread Environment Block (TEB) Analyzer     0.278 secs
+    WindowsResourceReference                  27.904 secs
+    x86 Constant Reference Analyzer          289.340 secs
+-----------------------------------------------------
+     Total Time   1452 secs
+-----------------------------------------------------
+ (AutoAnalysisManager)  
+INFO  REPORT: Analysis succeeded for file: file:///root/mrgarabato_analysis/run/unpacked_bypass.exe (HeadlessAnalyzer)  
+INFO  /unpacked_bypass.exe: file created (root) (LocalFileSystem)  
+INFO  REPORT: Save succeeded for: /unpacked_bypass.exe (MG2:/unpacked_bypass.exe) (HeadlessAnalyzer)  
+INFO  REPORT: Import succeeded (HeadlessAnalyzer)  

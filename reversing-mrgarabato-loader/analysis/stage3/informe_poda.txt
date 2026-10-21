@@ -1,0 +1,79 @@
+INFORME DE PODA - stage3
+======================================================================
+
+original : 1396736 bytes
+podado   : 1316547 bytes
+eliminado: 80189 bytes (5.74%)
+
+instrucciones eliminadas por regla:
+  T2    34314
+  T1      305
+  T3      184
+  T5      178
+  T4        6
+
+Justificacion por patron:
+  T1 nop/xchg-identidad : no tocan reg/flag/mem/flujo.
+  T2 race muerta       : la sig. instruccion sobreescribe CF sin leerlo.
+  T3 race clc/stc      : el CF final depende solo de la ultima.
+  T4 race cmc          : paridad par -> identidad; impar -> conserva 1.
+  T5 jmp $+5           : E9 00000000, no-op de flujo.
+  Restriccion          : nunca se borra una instruccion que sea
+                         destino de rama (el control podria entrar).
+
+Saltos cortos expandidos a rel32: 5
+Bytes bloqueados (ventanas loop/jrcxz): 44547
+Ramas reescritas: 2192
+VERIFICACION CFG: 2192 correctas, 0 incorrectas
+
+Runs eliminados (top 50 por tamaño):
+  000022c6..000022d1     11 bytes -> nuevo 0x00001e7c
+  000003cb..000003d0      5 bytes -> nuevo 0x0000037b
+  000003d5..000003da      5 bytes -> nuevo 0x00000380
+  000003df..000003e4      5 bytes -> nuevo 0x00000385
+  000003e9..000003ee      5 bytes -> nuevo 0x0000038a
+  0000044f..00000454      5 bytes -> nuevo 0x000003e9
+  0000046e..00000473      5 bytes -> nuevo 0x00000402
+  000004e5..000004ea      5 bytes -> nuevo 0x00000471
+  000004f3..000004f8      5 bytes -> nuevo 0x0000047a
+  00000539..0000053e      5 bytes -> nuevo 0x000004bb
+  00000574..00000579      5 bytes -> nuevo 0x000004f0
+  000005e6..000005eb      5 bytes -> nuevo 0x0000055d
+  00000651..00000656      5 bytes -> nuevo 0x000005c1
+  0000065f..00000664      5 bytes -> nuevo 0x000005ca
+  00000688..0000068d      5 bytes -> nuevo 0x000005ed
+  000006b3..000006b8      5 bytes -> nuevo 0x00000611
+  00000702..00000707      5 bytes -> nuevo 0x00000658
+  00000722..00000727      5 bytes -> nuevo 0x00000673
+  00000730..00000735      5 bytes -> nuevo 0x0000067c
+  00000786..0000078b      5 bytes -> nuevo 0x000006cc
+  0000079c..000007a1      5 bytes -> nuevo 0x000006dd
+  000007a4..000007a9      5 bytes -> nuevo 0x000006e0
+  000007ad..000007b2      5 bytes -> nuevo 0x000006e4
+  000007f6..000007fb      5 bytes -> nuevo 0x00000725
+  00000808..0000080d      5 bytes -> nuevo 0x00000732
+  0000081e..00000823      5 bytes -> nuevo 0x00000743
+  0000084e..00000853      5 bytes -> nuevo 0x0000076b
+  0000087c..00000881      5 bytes -> nuevo 0x00000792
+  00000897..0000089c      5 bytes -> nuevo 0x000007a8
+  000008a5..000008aa      5 bytes -> nuevo 0x000007b1
+  000008b2..000008b7      5 bytes -> nuevo 0x000007b9
+  000008f7..000008fc      5 bytes -> nuevo 0x000007f8
+  00000905..0000090a      5 bytes -> nuevo 0x00000801
+  00000956..0000095b      5 bytes -> nuevo 0x0000084c
+  000009a8..000009ad      5 bytes -> nuevo 0x00000899
+  000009e0..000009e5      5 bytes -> nuevo 0x000008cc
+  000009e9..000009ee      5 bytes -> nuevo 0x000008d0
+  00000a30..00000a35      5 bytes -> nuevo 0x0000090f
+  00000a3e..00000a43      5 bytes -> nuevo 0x00000918
+  00000a97..00000a9c      5 bytes -> nuevo 0x00000969
+  00000aca..00000acf      5 bytes -> nuevo 0x00000995
+  00000aef..00000af4      5 bytes -> nuevo 0x000009b4
+  00000afd..00000b02      5 bytes -> nuevo 0x000009bd
+  00000b42..00000b47      5 bytes -> nuevo 0x000009fd
+  00000b83..00000b88      5 bytes -> nuevo 0x00000a35
+  00000bef..00000bf4      5 bytes -> nuevo 0x00000a9c
+  00000bf9..00000bfe      5 bytes -> nuevo 0x00000aa1
+  00000c2b..00000c30      5 bytes -> nuevo 0x00000ace
+  00000c7a..00000c7f      5 bytes -> nuevo 0x00000b14
+  00000cc1..00000cc6      5 bytes -> nuevo 0x00000b54

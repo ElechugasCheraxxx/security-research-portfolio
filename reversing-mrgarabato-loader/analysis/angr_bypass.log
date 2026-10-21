@@ -1,0 +1,73 @@
+Traceback (most recent call last):
+  File "/usr/lib/python3.14/site-packages/cffi/api.py", line 176, in _typeof
+    result = self._parsed_types[cdecl]
+             ~~~~~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'IRType *'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/mrgarabato_analysis/run/angr_cfg.py", line 9, in <module>
+    import angr
+  File "/usr/lib/python3.14/site-packages/angr/__init__.py", line 39, in <module>
+    from .sim_procedure import SimProcedure
+  File "/usr/lib/python3.14/site-packages/angr/sim_procedure.py", line 15, in <module>
+    from angr.state_plugins.sim_action import SimActionExit
+  File "/usr/lib/python3.14/site-packages/angr/state_plugins/__init__.py", line 6, in <module>
+    from .posix import PosixDevFS, PosixProcFS, SimSystemPosix
+  File "/usr/lib/python3.14/site-packages/angr/state_plugins/posix.py", line 10, in <module>
+    from angr.storage.file import SimFile, SimPacketsStream, Flags, SimFileDescriptor, SimFileDescriptorDuplex
+  File "/usr/lib/python3.14/site-packages/angr/storage/__init__.py", line 5, in <module>
+    from .file import SimFile
+  File "/usr/lib/python3.14/site-packages/angr/storage/file.py", line 11, in <module>
+    from .memory_mixins import DefaultMemory
+  File "/usr/lib/python3.14/site-packages/angr/storage/memory_mixins/__init__.py", line 61, in <module>
+    from .javavm_memory_mixin import JavaVmMemoryMixin
+  File "/usr/lib/python3.14/site-packages/angr/storage/memory_mixins/javavm_memory_mixin.py", line 10, in <module>
+    from angr.engines.soot.values import (
+    ...<7 lines>...
+    )
+  File "/usr/lib/python3.14/site-packages/angr/engines/__init__.py", line 10, in <module>
+    from .unicorn import SimEngineUnicorn
+  File "/usr/lib/python3.14/site-packages/angr/engines/unicorn.py", line 12, in <module>
+    from .vex.heavy.heavy import VEXEarlyExit
+  File "/usr/lib/python3.14/site-packages/angr/engines/vex/__init__.py", line 3, in <module>
+    from .claripy import ClaripyDataMixin
+  File "/usr/lib/python3.14/site-packages/angr/engines/vex/claripy/__init__.py", line 3, in <module>
+    from .datalayer import ClaripyDataMixin
+  File "/usr/lib/python3.14/site-packages/angr/engines/vex/claripy/datalayer.py", line 12, in <module>
+    from . import ccall, irop
+  File "/usr/lib/python3.14/site-packages/angr/engines/vex/claripy/irop.py", line 1275, in <module>
+    make_operations()
+    ~~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.14/site-packages/angr/engines/vex/claripy/irop.py", line 159, in make_operations
+    operations[p] = SimIROp(p, **attrs)
+                    ~~~~~~~^^^^^^^^^^^^
+  File "/usr/lib/python3.14/site-packages/angr/engines/vex/claripy/irop.py", line 277, in __init__
+    self._output_type = pyvex.get_op_retty(name)
+                        ~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/lib/python3.14/site-packages/pyvex/expr.py", line 767, in get_op_retty
+    return op_arg_types(op)[0]
+           ~~~~~~~~~~~~^^^^
+  File "/usr/lib/python3.14/site-packages/pyvex/expr.py", line 924, in op_arg_types
+    return _request_func(op)
+  File "/usr/lib/python3.14/site-packages/pyvex/expr.py", line 780, in _request_op_type_from_libvex
+    res_ty = ffi.new("IRType *")
+  File "/usr/lib/python3.14/site-packages/cffi/api.py", line 259, in new
+    cdecl = self._typeof(cdecl)
+  File "/usr/lib/python3.14/site-packages/cffi/api.py", line 179, in _typeof
+    result = self._typeof_locked(cdecl)
+  File "/usr/lib/python3.14/site-packages/cffi/api.py", line 164, in _typeof_locked
+    type = self._parser.parse_type(cdecl)
+  File "/usr/lib/python3.14/site-packages/cffi/cparser.py", line 561, in parse_type
+    return self.parse_type_and_quals(cdecl)[0]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/usr/lib/python3.14/site-packages/cffi/cparser.py", line 564, in parse_type_and_quals
+    ast, macros = self._parse('void __dummy(\n%s\n);' % cdecl)[:2]
+                  ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/site-packages/cffi/cparser.py", line 337, in _parse
+    ast = _get_parser().parse(fullcsource)
+  File "/usr/lib/python3.14/site-packages/angr/sim_type.py", line 3916, in parse
+    self.clex.filename = filename
+    ^^^^^^^^^^^^^^^^^^
+AttributeError: property 'filename' of 'CLexer' object has no setter

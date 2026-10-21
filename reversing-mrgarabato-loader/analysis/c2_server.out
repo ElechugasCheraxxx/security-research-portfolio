@@ -1,0 +1,6 @@
+[*] C2 local en 0.0.0.0:443  log -> /root/mrgarabato_analysis/run/c2_capture.log
+[*] rutas: cmd.php | neural_login.php | /c2_local/<f>
+[2026-10-18 10:59:06] GET /Download/cmd.php?t=prueba  (cuerpo 0 B)
+[2026-10-18 10:59:06] POST /Auth/api/neural_login.php  (cuerpo 11 B)
+[2026-10-19 01:36:40] POST /Auth/api/neural_login.php  (cuerpo 10 B)
+[2026-10-19 01:36:41] GET /Download/cmd.php?t=test  (cuerpo 0 B)

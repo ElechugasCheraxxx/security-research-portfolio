@@ -1,0 +1,4 @@
+0x0a4c8c8f kernel32.dll!Process32First
+0x15eec872 kernel32.dll!Process32Next
+0x185776b5 kernel32.dll!CreateToolhelp32Snapshot
+0xfaba0065 kernel32.dll!CloseHandle | kernelbase.dll!CloseHandle

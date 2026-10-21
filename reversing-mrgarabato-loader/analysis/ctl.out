@@ -1,0 +1,41 @@
+=== PROBE DE ENTORNO (lo que ve el sample) ===
+
+[1] GetSystemFirmwareTable('RSMB') size=418
+
+[2] Registros de deteccion de VM
+  HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion:
+     CommonFilesDi                      = C:\Program Files\Common Files
+     CommonFilesDir (x86                = C:\Program Files (x86)\Common Files
+     FirstInstallDateTim                = (binario/otro)
+     ProductI                           = 12345-oem-0000001-54321
+     ProgramFilesDi                     = C:\Program Files
+     ProgramFilesDir (x86               = C:\Program Files (x86)
+     ProgramFilesPat                    = (binario/otro)
+     RegisteredOrganizatio              = 
+     RegisteredOwne                     = 
+  HKLM\SOFTWARE\Wine:
+  HKLM\SOFTWARE\Classes\Applications:
+
+[3] SetupDiGetDeviceRegistryProperty SPDRP_HARDWAREID (muestra)
+    HWID: 
+    HWID: 
+    HWID: 
+    HWID: 
+    HWID: 
+    HWID: 
+    HWID: 
+    HWID: 
+    HWID: 
+    HWID: 
+    HWID: 
+    HWID: 
+  (dispositivos enumerados: 19)
+
+[4] Otros vectores
+  IsDebuggerPresent        = 0
+  dwNumberOfProcessors    = 8
+  lpMinimumApplicationAddress = 0000000000010000
+  RAM total               = 32082 MB
+  GetModuleHandleA(ntdll)  = 00006FFFFFBA0000
+  GetComputerNameA         = CHERAXXX
+  GetUserNameA            = root

@@ -1,0 +1,39 @@
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::loadLibrary has been called by gdsl.Frontend in an unnamed module (file:/usr/share/bindead/bindead.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+Exception in thread "main" rreil.assembler.parser.ParseException: Encountered " <IDENTIFIER> "f "" at line 1, column 31.
+Was expecting one of:
+    "," ...
+    "/" ...
+    ".b" ...
+    ".w" ...
+    ".d" ...
+    ".q" ...
+    ".o" ...
+    ".z" ...
+    "." ...
+    ")" ...
+    
+Wrapped in exception: rreil.assembler.UncheckedParseException
+	at rreil.assembler.parser.RReilParser.generateParseException(RReilParser.java:2531)
+	at rreil.assembler.parser.RReilParser.jj_consume_token(RReilParser.java:2463)
+	at rreil.assembler.parser.RReilParser.CallPrimOp(RReilParser.java:2290)
+	at rreil.assembler.parser.RReilParser.Instruction(RReilParser.java:559)
+	at rreil.assembler.parser.RReilParser.Statement(RReilParser.java:295)
+	at rreil.assembler.parser.RReilParser.Module(RReilParser.java:84)
+	at rreil.assembler.CompiledAssembler.compile(CompiledAssembler.java:46)
+	at rreil.assembler.CompiledAssembler.from(CompiledAssembler.java:37)
+	at rreil.assembler.CompiledAssembler.from(CompiledAssembler.java:33)
+	at rreil.lang.RReil.from(RReil.java:39)
+	at bindead.analyses.RReilRunner.eval(RReilRunner.java:60)
+	at bindead.domainnetwork.combinators.RootMemoryFunctor.eval(RootMemoryFunctor.java:49)
+	at bindead.domainnetwork.combinators.RootMemoryFunctor.eval(RootMemoryFunctor.java:23)
+	at bindead.analyses.algorithms.CallStringAnalysis.introduceDataSegments(CallStringAnalysis.java:178)
+	at bindead.analyses.algorithms.CallStringAnalysis.runFrom(CallStringAnalysis.java:108)
+	at bindead.analyses.algorithms.CallStringAnalysis.runFrom(CallStringAnalysis.java:102)
+	at cli.Bindead.analyze(Bindead.java:408)
+	at cli.Bindead.processFile(Bindead.java:267)
+	at cli.Bindead.process(Bindead.java:248)
+	at cli.Bindead.main(Bindead.java:216)

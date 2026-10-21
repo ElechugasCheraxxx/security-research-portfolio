@@ -1,0 +1,79 @@
+openjdk version "27" 2026-09-15
+OpenJDK Runtime Environment (build 27)
+OpenJDK 64-Bit Server VM (build 27, mixed mode)
+INFO  Using log config file: jar:file:/opt/ghidra/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml (LoggingInitialization)  
+INFO  Using log file: /root/.config/ghidra/ghidra_12.1.2_DEV/application.log (LoggingInitialization)  
+INFO  Loading user preferences: /root/.config/ghidra/ghidra_12.1.2_DEV/preferences (Preferences)  
+INFO  Searching for classes... (ClassSearcher)  
+INFO  Class search complete (13836 ms) (ClassSearcher)  
+WARNING: Final field name in class ghidra.util.charset.CharsetInfo has been mutated reflectively by class com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$2 in unnamed module @7c24b813 (file:/opt/ghidra/Ghidra/Framework/Generic/lib/gson-2.13.2.jar)
+WARNING: Use --enable-final-field-mutation=ALL-UNNAMED to avoid a warning
+WARNING: Mutating final fields will be blocked in a future release unless final field mutation is enabled
+INFO  Initializing SSL Context (DefaultSSLContextInitializer)  
+INFO  Initializing Random Number Generator... (SecureRandomFactory)  
+INFO  Random Number Generator initialization complete: NativePRNGNonBlocking (SecureRandomFactory)  
+INFO  Trust manager disabled, cacerts have not been set (DefaultTrustManagerFactory)  
+INFO  Headless startup complete (44755 ms) (AnalyzeHeadless)  
+INFO  Class searcher loaded 59 extension points (20 false positives) (ClassSearcher)  
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::staticFieldOffset has been called by org.apache.felix.framework.util.SecureAction (file:/opt/ghidra/Ghidra/Features/Base/lib/org.apache.felix.framework-7.0.5.jar)
+WARNING: Please consider reporting this to the maintainers of class org.apache.felix.framework.util.SecureAction
+WARNING: sun.misc.Unsafe::staticFieldOffset will be removed in a future release
+INFO  HEADLESS Script Paths:
+    /opt/ghidra/Ghidra/Features/SystemEmulation/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/GnuDemangler/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/WildcardAssembler/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/DATA/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/DecompilerDependent/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/JVM/ghidra_scripts
+    /root/mrgarabato_analysis/run
+    /opt/ghidra/Ghidra/Debug/Debugger-rmi-trace/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/MicrosoftCodeAnalyzer/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/VersionTracking/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/PyGhidra/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/SwiftDemangler/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/Base/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/Atmel/ghidra_scripts
+    /opt/ghidra/Ghidra/Debug/Debugger/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/Decompiler/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/FunctionID/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/PDB/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/8051/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/PIC/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/FileFormats/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/BSim/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/BytePatterns/ghidra_scripts (HeadlessAnalyzer)  
+INFO  HEADLESS: execution starts (HeadlessAnalyzer)  
+WARN  Project already exists and will not be deleted: /tmp/opencode/gh_proj/loader_text (HeadlessAnalyzer)  
+INFO  Opening existing project: /tmp/opencode/gh_proj/loader_text (HeadlessAnalyzer)  
+INFO  Opening project: /tmp/opencode/gh_proj/loader_text (HeadlessProject)  
+INFO  REPORT: Processing input files:  (HeadlessAnalyzer)  
+INFO       project: /tmp/opencode/gh_proj/loader_text (HeadlessAnalyzer)  
+INFO  IMPORTING: file:///root/mrgarabato_analysis/run/loader_textonly.exe (HeadlessAnalyzer)  
+INFO  Using Loader: Portable Executable (PE) (ProgramLoader)  
+INFO  Using Language/Compiler: x86:LE:64:default:windows (ProgramLoader)  
+INFO  Using Library Search Path: [., /bin, /lib, /lib64, /lib/x86_64-linux-gnu, /lib/aarch64-linux-gnu, /usr/bin, /usr/lib, /usr/X11R6/bin, /usr/X11R6/lib, /usr/java/packages/lib, /usr/lib64] (ProgramLoader)  
+ERROR Section[4] has size zero (PeLoader)  
+ERROR Section[5] has size zero (PeLoader)  
+ERROR Section[6] has size zero (PeLoader)  
+ERROR Section[7] has size zero (PeLoader)  
+WARN  Skipping DataDirectory 'IMAGE_DIRECTORY_ENTRY_EXPORT'. RVA outside of image (RVA: 0xdc1410, Size: 0xc4f). Could be a file-only data directory. (ExportDataDirectory)  
+WARN  Skipping DataDirectory 'IMAGE_DIRECTORY_ENTRY_IMPORT'. RVA outside of image (RVA: 0xd417d0, Size: 0x1b8). Could be a file-only data directory. (ImportDataDirectory)  
+WARN  Skipping DataDirectory 'IMAGE_DIRECTORY_ENTRY_RESOURCE'. RVA outside of image (RVA: 0xf93000, Size: 0x8e48). Could be a file-only data directory. (ResourceDataDirectory)  
+WARN  Skipping DataDirectory 'IMAGE_DIRECTORY_ENTRY_EXCEPTION'. RVA outside of image (RVA: 0xf8f6b0, Size: 0x3864). Could be a file-only data directory. (ExceptionDataDirectory)  
+WARN  Skipping DataDirectory 'IMAGE_DIRECTORY_ENTRY_TLS'. RVA outside of image (RVA: 0xe241e0, Size: 0x28). Could be a file-only data directory. (TLSDataDirectory)  
+WARN  Skipping DataDirectory 'IMAGE_DIRECTORY_ENTRY_LOAD_CONFIG'. RVA outside of image (RVA: 0xf8f570, Size: 0x140). Could be a file-only data directory. (LoadConfigDataDirectory)  
+WARN  Skipping DataDirectory 'IMAGE_DIRECTORY_ENTRY_IAT'. RVA outside of image (RVA: 0x824000, Size: 0x180). Could be a file-only data directory. (ImportAddressTableDataDirectory)  
+INFO  Additional info:
+Loading file:///root/mrgarabato_analysis/run/loader_textonly.exe?MD5=e852a9cbe6afe3796ccb26fadbf732a2...
+------------------------------------------------
+
+ (ProgramLoader)  
+INFO  IMPORTING: Loaded 0 additional files (HeadlessAnalyzer)  
+INFO  ANALYZING all memory and code: file:///root/mrgarabato_analysis/run/loader_textonly.exe (HeadlessAnalyzer)  
+WARN  Ignoring leading '_' chars on no-return name '___raise_securityfailure' specified in file: /opt/ghidra/Ghidra/Features/Base/data/PEFunctionsThatDoNotReturn (NoReturnFunctionAnalyzer)  
+WARN  Ignoring leading '_' chars on no-return name '___report_rangecheckfailure' specified in file: /opt/ghidra/Ghidra/Features/Base/data/PEFunctionsThatDoNotReturn (NoReturnFunctionAnalyzer)  
+INFO  Skipping PDB processing: missing PDB information in program metadata (PdbUniversalAnalyzer)  
+INFO  Packed database cache: /var/tmp/root-ghidra/packed-db-cache (PackedDatabaseCache)  
+ERROR Failed to disassemble at 140004850 (EHDataTypeUtilities)  
+INFO  Applied data type archive: windows_vs12_64 (ApplyDataArchiveAnalyzer)  

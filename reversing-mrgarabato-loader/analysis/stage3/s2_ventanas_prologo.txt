@@ -1,0 +1,336 @@
+
+######## prologo en 0x000018df ########
+  000018df  4881ec38010000           rsp, 0x138
+  000018e6  d2e0                     al, cl
+  000018e8  480fb3ea                 rdx, rbp
+  000018ec  4c0face024               rax, r12, 0x24
+  000018f1  488d442420               rax, [rsp + 0x20]
+  000018f6  448bc9                   r9d, ecx
+  000018f9  0f9cc2                   dl
+  000018fc  f9                       
+  000018fd  4c8bc9                   r9, rcx
+  00001900  452bc0                   r8d, r8d
+  00001903  4c2bc8                   r9, rax
+  00001906  90                       
+  00001907  660fbafab7               dx, 0xb7
+  0000190c  4a8d540420               rdx, [rsp + r8 + 0x20]
+  00001911  6698                     
+  00001913  4c0fabd8                 rax, r11
+  00001917  418bc8                   ecx, r8d
+  0000191a  480fb7c6                 rax, si
+  0000191e  66f7d0                   ax
+  00001921  c0d8f0                   al, 0xf0
+  00001924  b82d72cb4a               eax, 0x4acb722d
+  00001929  d3c0                     eax, cl
+
+######## prologo en 0x0000198f ########
+  0000198f  4881ec58010000           rsp, 0x158
+  00001996  66ffcd                   bp
+  00001999  48ffc6                   rsi
+  0000199c  66412bf0                 si, r8w
+  000019a0  488bea                   rbp, rdx
+  000019a3  4133f3                   esi, r11d
+  000019a6  663bf3                   si, bx
+  000019a9  40fece                   sil
+  000019ac  488bf1                   rsi, rcx
+  000019af  6641f7c5567b             r13w, 0x7b56
+  000019b5  453ae1                   r12b, r9b
+  000019b8  4885c9                   rcx, rcx
+  000019bb  e900000000               0x19c0
+  000019c0  0f841a000000             0x19e0
+  000019c6  4885d2                   rdx, rdx
+  000019c9  0f8411000000             0x19e0
+  000019cf  b84d5a0000               eax, 0x5a4d
+  000019d4  4084e8                   al, bpl
+  000019d7  663901                   word ptr [rcx], ax
+  000019da  0f8421000000             0x1a01
+  000019e0  2bc0                     eax, eax
+  000019e2  40c0ed8b                 bpl, 0x8b
+
+######## prologo en 0x00001f94 ########
+  00001f94  4881ec38010000           rsp, 0x138
+  00001f9b  6699                     
+  00001f9d  488d442420               rax, [rsp + 0x20]
+  00001fa2  f8                       
+  00001fa3  c6c666                   dh, 0x66
+  00001fa6  4c8bc9                   r9, rcx
+  00001fa9  4c0fbbf9                 rcx, r15
+  00001fad  452bc0                   r8d, r8d
+  00001fb0  99                       
+  00001fb1  4c2bc8                   r9, rax
+  00001fb4  c0dc61                   ah, 0x61
+  00001fb7  c0d078                   al, 0x78
+  00001fba  90                       
+  00001fbb  4a8d540420               rdx, [rsp + r8 + 0x20]
+  00001fc0  f8                       
+  00001fc1  418bc8                   ecx, r8d
+  00001fc4  b82d72cb4a               eax, 0x4acb722d
+  00001fc9  e901000000               0x1fcf
+  00001fce  f5                       
+  00001fcf  d3c0                     eax, cl
+  00001fd1  663bd9                   bx, cx
+  00001fd4  4102c0                   al, r8b
+
+######## prologo en 0x00005423 ########
+  00005423  4881ec20000000           rsp, 0x20
+  0000542a  e96a510700               0x7a599
+  0000542f  f7d8                     eax
+  00005431  66f7c7bb76               di, 0x76bb
+  00005436  f5                       
+  00005437  e98b371300               0x138bc7
+  0000543c  418b02                   eax, dword ptr [r10]
+  0000543f  4112d7                   dl, r15b
+  00005442  660fc1c9                 cx, cx
+  00005446  53                       rbx
+  00005447  4122d2                   dl, r10b
+  0000544a  440facc157               ecx, r8d, 0x57
+  0000544f  0fa2                     
+  00005451  4180ff25                 r15b, 0x25
+  00005455  443ae3                   r12b, bl
+  00005458  f9                       
+  00005459  4981ea0c000000           r10, 0xc
+  00005460  443ae8                   r13b, al
+  00005463  4189420c                 dword ptr [r10 + 0xc], eax
+  00005467  e9f3360e00               0xe8b5f
+  0000546c  40f6c5f8                 bpl, 0xf8
+  00005470  4152                     r10
+
+######## prologo en 0x00008549 ########
+  00008549  4881ec20000000           rsp, 0x20
+  00008550  e9e8200300               0x3a63d
+  00008555  ffce                     esi
+  00008557  c1c602                   esi, 2
+  0000855a  81eed776f24f             esi, 0x4ff276d7
+  00008560  4184f0                   r8b, sil
+  00008563  f5                       
+  00008564  81f6ac1c9248             esi, 0x48921cac
+  0000856a  f8                       
+  0000856b  6641f7c7ac03             r15w, 0x3ac
+  00008571  e957ce0000               0x153cd
+  00008576  310424                   dword ptr [rsp], eax
+  00008579  664423c4                 r8w, sp
+  0000857d  41c0d838                 r8b, 0x38
+  00008581  4158                     r8
+  00008583  4080fdc5                 bpl, 0xc5
+  00008587  4863c0                   rax, eax
+  0000858a  4803f8                   rdi, rax
+  0000858d  e971050200               0x28b03
+  00008592  ff74dd20                 qword ptr [rbp + rbx*8 + 0x20]
+  00008596  4584ff                   r15b, r15b
+  00008599  81eb01000000             ebx, 1
+
+######## prologo en 0x0000a305 ########
+  0000a305  4881ec20000000           rsp, 0x20
+  0000a30c  e9f2330800               0x8d703
+  0000a311  66410fb613               dx, byte ptr [r11]
+  0000a316  418a4b02                 cl, byte ptr [r11 + 2]
+  0000a31a  e9d2621300               0x1405f1
+  0000a31f  ffc9                     ecx
+  0000a321  81f1b64c9f17             ecx, 0x179f4cb6
+  0000a327  0fc9                     ecx
+  0000a329  f5                       
+  0000a32a  c1c902                   ecx, 2
+  0000a32d  f9                       
+  0000a32e  443be7                   r12d, edi
+  0000a331  55                       rbp
+  0000a332  4881f8c9491d11           rax, 0x111d49c9
+  0000a339  410fbfec                 ebp, r12w
+  0000a33d  660fc1ed                 bp, bp
+  0000a341  310c24                   dword ptr [rsp], ecx
+  0000a344  5d                       rbp
+  0000a345  4180fb83                 r11b, 0x83
+  0000a349  f6c37e                   bl, 0x7e
+  0000a34c  4184ed                   r13b, bpl
+  0000a34f  4863c9                   rcx, ecx
+
+######## prologo en 0x00012c78 ########
+  00012c78  4881ec80010000           rsp, 0x180
+  00012c7f  66410fbec4               ax, r12b
+  00012c84  410f91c1                 r9b
+  00012c88  4881e4f0ffffff           rsp, 0xfffffffffffffff0
+  00012c8f  450fbfde                 r11d, r14w
+  00012c93  488beb                   rbp, rbx
+  00012c96  41d2e9                   r9b, cl
+  00012c99  49bb0000000000000000     r11, 0
+  00012ca3  4d0fbfc8                 r9, r8w
+  00012ca7  492beb                   rbp, r11
+  00012caa  d2c4                     ah, cl
+  00012cac  0f97c4                   ah
+  00012caf  66450fb6cc               r9w, r12b
+  00012cb4  4c8d0df9ffffff           r9, [rip - 7]
+  00012cbb  660fbec2                 ax, dl
+  00012cbf  66410fb6c4               ax, r12b
+  00012cc4  d2d4                     ah, cl
+  00012cc6  8b03                     eax, dword ptr [rbx]
+  00012cc8  f9                       
+  00012cc9  4881c304000000           rbx, 4
+  00012cd0  f6c1c9                   cl, 0xc9
+  00012cd3  33c5                     eax, ebp
+
+######## prologo en 0x000130c0 ########
+  000130c0  4881ec20000000           rsp, 0x20
+  000130c7  e9f2761300               0x14a7be
+  000130cc  41ffc0                   r8d
+  000130cf  f5                       
+  000130d0  410fc8                   r8d
+  000130d3  41c1c002                 r8d, 2
+  000130d7  56                       rsi
+  000130d8  0fbafe8d                 esi, 0x8d
+  000130dc  40c0eee4                 sil, 0xe4
+  000130e0  44310424                 dword ptr [rsp], r8d
+  000130e4  5e                       rsi
+  000130e5  4d63c0                   r8, r8d
+  000130e8  4d85e0                   r8, r12
+  000130eb  4080ff20                 dil, 0x20
+  000130ef  e96db01200               0x13e161
+  000130f4  c1c502                   ebp, 2
+  000130f7  e920ad0500               0x6de1c
+  000130fc  ffc8                     eax
+  000130fe  f9                       
+  000130ff  f5                       
+  00013100  f8                       
+  00013101  c1c803                   eax, 3
+
+######## prologo en 0x0001f2bb ########
+  0001f2bb  4881ec20000000           rsp, 0x20
+  0001f2c2  e954b00400               0x6a31b
+  0001f2c7  f7de                     esi
+  0001f2c9  d1ce                     esi, 1
+  0001f2cb  e95b060300               0x4f92b
+  0001f2d0  f7d2                     edx
+  0001f2d2  e9b07f0a00               0xc7287
+  0001f2d7  453ac4                   r8b, r12b
+  0001f2da  4863ff                   rdi, edi
+  0001f2dd  41f6c7b5                 r15b, 0xb5
+  0001f2e1  6681fae62f               dx, 0x2fe6
+  0001f2e6  4c03cf                   r9, rdi
+  0001f2e9  e963a91000               0x129c51
+  0001f2ee  41f6c2f0                 r10b, 0xf0
+  0001f2f2  443ac0                   r8b, al
+  0001f2f5  4133fa                   edi, r10d
+  0001f2f8  c1c702                   edi, 2
+  0001f2fb  81ef59074d43             edi, 0x434d0759
+  0001f301  4181f9d914a403           r9d, 0x3a414d9
+  0001f308  81f76b2cdb2f             edi, 0x2fdb2c6b
+  0001f30e  c1c703                   edi, 3
+  0001f311  e931100b00               0xd0347
+
+######## prologo en 0x000284a6 ########
+  000284a6  4881ec80010000           rsp, 0x180
+  000284ad  4881e4f0ffffff           rsp, 0xfffffffffffffff0
+  000284b4  0f98c6                   dh
+  000284b7  488bf7                   rsi, rdi
+  000284ba  66410fbcd7               dx, r15w
+  000284bf  49b90000000000000000     r9, 0
+  000284c9  490fb7d2                 rdx, r10w
+  000284cd  660fb3cd                 bp, cx
+  000284d1  492bf1                   rsi, r9
+  000284d4  4c0fa4dd01               rbp, r11, 1
+  000284d9  488d2df9ffffff           rbp, [rip - 7]
+  000284e0  440facca8a               edx, r9d, 0x8a
+  000284e5  6681e21f3e               dx, 0x3e1f
+  000284ea  4881ef04000000           rdi, 4
+  000284f1  66ffc2                   dx
+  000284f4  f5                       
+  000284f5  480fb7d7                 rdx, di
+  000284f9  8b17                     edx, dword ptr [rdi]
+  000284fb  664185c1                 r9w, ax
+  000284ff  f8                       
+  00028500  33d6                     edx, esi
+  00028502  e9c7c30b00               0xe48ce
+
+######## prologo en 0x000292c2 ########
+  000292c2  4881ec20000000           rsp, 0x20
+  000292c9  e9147a0e00               0x110ce2
+  000292ce  e945280a00               0xcbb18
+  000292d3  418b0a                   ecx, dword ptr [r10]
+  000292d6  660fa3cf                 di, cx
+  000292da  418b7a04                 edi, dword ptr [r10 + 4]
+  000292de  f5                       
+  000292df  41c0d3b1                 r11b, 0xb1
+  000292e3  4981ea04000000           r10, 4
+  000292ea  4d0fbfdd                 r11, r13w
+  000292ee  6641c1ebda               r11w, 0xda
+  000292f3  03cf                     ecx, edi
+  000292f5  4c0fb7dd                 r11, bp
+  000292f9  450fbfd8                 r11d, r8w
+  000292fd  41894a08                 dword ptr [r10 + 8], ecx
+  00029301  410f9ec3                 r11b
+  00029305  4c63da                   r11, edx
+  00029308  4d8bdd                   r11, r13
+  0002930b  9c                       
+  0002930c  4c2bdb                   r11, rbx
+  0002930f  450fabf3                 r11d, r14d
+  00029313  418f02                   qword ptr [r10]
+
+######## prologo en 0x0002a9b5 ########
+  0002a9b5  4881ec20000000           rsp, 0x20
+  0002a9bc  e912950a00               0xd3ed3
+  0002a9c1  ffe5                     rbp
+  0002a9c3  e950110a00               0xcbb18
+  0002a9c8  f5                       
+  0002a9c9  4903e8                   rbp, r8
+  0002a9cc  55                       rbp
+  0002a9cd  c3                       
+  0002a9ce  4180fe6b                 r14b, 0x6b
+  0002a9d2  4181f175073a31           r9d, 0x313a0775
+  0002a9d9  f8                       
+  0002a9da  3aff                     bh, bh
+  0002a9dc  55                       rbp
+  0002a9dd  40c0ed33                 bpl, 0x33
+  0002a9e1  c1c5d1                   ebp, 0xd1
+  0002a9e4  44310c24                 dword ptr [rsp], r9d
+  0002a9e8  40c0e523                 bpl, 0x23
+  0002a9ec  5d                       rbp
+  0002a9ed  4080fe32                 sil, 0x32
+  0002a9f1  443bde                   r11d, esi
+  0002a9f4  4d63c9                   r9, r9d
+  0002a9f7  f5                       
+
+######## prologo en 0x0002bb66 ########
+  0002bb66  4881ec20000000           rsp, 0x20
+  0002bb6d  e9338c0100               0x447a5
+  0002bb72  498b12                   rdx, qword ptr [r10]
+  0002bb75  66c1d99d                 cx, 0x9d
+  0002bb79  664185da                 r10w, bx
+  0002bb7d  480fa3c1                 rcx, rax
+  0002bb81  498b4a08                 rcx, qword ptr [r10 + 8]
+  0002bb85  f5                       
+  0002bb86  f9                       
+  0002bb87  663bfc                   di, sp
+  0002bb8a  4981c20c000000           r10, 0xc
+  0002bb91  33ed                     ebp, ebp
+  0002bb93  e990d10c00               0xf8d28
+  0002bb98  33d5                     edx, ebp
+  0002bb9a  664185d3                 r11w, dx
+  0002bb9e  41f7c4b1252d43           r12d, 0x432d25b1
+  0002bba5  81c26b13bb24             edx, 0x24bb136b
+  0002bbab  f9                       
+  0002bbac  f7d2                     edx
+  0002bbae  c1c203                   edx, 3
+  0002bbb1  e9f2d50c00               0xf91a8
+  0002bbb6  0f84a8ea0600             0x9a664
+
+######## prologo en 0x0002d9c1 ########
+  0002d9c1  4881ec20000000           rsp, 0x20
+  0002d9c8  e9ec530200               0x52db9
+  0002d9cd  66453be6                 r12w, r14w
+  0002d9d1  4981ea02000000           r10, 2
+  0002d9d8  6645891a                 word ptr [r10], r11w
+  0002d9dc  66410fbaf314             r11w, 0x14
+  0002d9e2  49c1eb3e                 r11, 0x3e
+  0002d9e6  458ade                   r11b, r14b
+  0002d9e9  4881ef04000000           rdi, 4
+  0002d9f0  f5                       
+  0002d9f1  448b1f                   r11d, dword ptr [rdi]
+  0002d9f4  f9                       
+  0002d9f5  4433de                   r11d, esi
+  0002d9f8  453af2                   r14b, r10b
+  0002d9fb  4181ebb73b7a77           r11d, 0x777a3bb7
+  0002da02  f8                       
+  0002da03  f5                       
+  0002da04  41c1c302                 r11d, 2
+  0002da08  e9a29d0100               0x477af
+  0002da0d  498b09                   rcx, qword ptr [r9]
+  0002da10  24d0                     al, 0xd0
+  0002da12  4185d0                   r8d, edx

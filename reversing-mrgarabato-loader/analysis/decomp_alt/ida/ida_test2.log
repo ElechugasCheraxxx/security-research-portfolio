@@ -1,0 +1,19 @@
+Database /root/mrgarabato_analysis/run/unpacked_bypass.exe.id0 already exists.
+Do you want to overwrite it? -> ~L~oad existing
+
+Database for file '/root/mrgarabato_analysis/run/unpacked_bypass.exe.id0' is not closed. Do you want IDA to repair it?
+
+Please note that the repaired database will be upgraded to
+the current version of IDA and may still have problems.
+The best solution is to use the packed database or a backup.
+ -> ~R~epair
+The database has been successfully repaired.
+
+  bytes   pages size description
+--------- ----- ---- --------------------------------------------
+   524288    64 8192 allocating memory for b-tree...
+$ dirtree/enums: no back reference from FF00000000000031...fixed
+found nodes in the privrange above the maxnode (FF00000000000002)...fixed
+Database still contains inconsistencies, see the message window for the details -> OK
+    65536     8 8192 allocating memory for virtual array...
+file /root/mrgarabato_analysis/run/unpacked_bypass.exe.id1: Read attempt past file end -> OK

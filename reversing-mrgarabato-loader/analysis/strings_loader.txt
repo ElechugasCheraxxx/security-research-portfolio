@@ -1,0 +1,2 @@
+0x022885	idx=0xf6	q=66	IJKvmNOPQRS
+0x02506b	idx=0xf8	q=66	KvMNOx(

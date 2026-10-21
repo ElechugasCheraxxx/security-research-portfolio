@@ -1,0 +1,16 @@
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::loadLibrary has been called by gdsl.Frontend in an unnamed module (file:/usr/share/bindead/bindead.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+Exception in thread "main" java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.base/java.util.LinkedList.checkElementIndex(LinkedList.java:567)
+	at java.base/java.util.LinkedList.get(LinkedList.java:488)
+	at bindead.environment.abi.ABI.writeAnalysisStartStackCanary(ABI.java:197)
+	at bindead.analyses.algorithms.CallStringAnalysis.setAnalysisStartStackCanary(CallStringAnalysis.java:166)
+	at bindead.analyses.algorithms.CallStringAnalysis.runFrom(CallStringAnalysis.java:109)
+	at bindead.analyses.algorithms.CallStringAnalysis.runFrom(CallStringAnalysis.java:102)
+	at cli.Bindead.analyze(Bindead.java:408)
+	at cli.Bindead.processFile(Bindead.java:267)
+	at cli.Bindead.process(Bindead.java:248)
+	at cli.Bindead.main(Bindead.java:216)

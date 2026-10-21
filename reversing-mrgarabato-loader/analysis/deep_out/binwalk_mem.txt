@@ -1,0 +1,7 @@
+error: unexpected argument '-B' found
+
+  tip: to pass '-B' as a value, use '-- -B'
+
+Usage: binwalk [OPTIONS] [FILE_NAME]
+
+For more information, try '--help'.

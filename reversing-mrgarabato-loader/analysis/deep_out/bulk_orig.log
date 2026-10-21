@@ -1,0 +1,21 @@
+bulk_extractor version: 1.6.1
+Hostname: cheraxxx
+Input file: /root/MrGarabato-ByPassEmulator.exe
+Output directory: deep_out/bulk_orig
+Disk Size: 7834624
+Threads: 8
+Attempt to open /root/MrGarabato-ByPassEmulator.exe
+All data are read; waiting for threads to finish...
+Time elapsed waiting for 1 thread to finish:
+     (timeout in 60 min.)
+All Threads Finished!
+Producer time spent waiting: 0 sec.
+Average consumer time spent waiting: 4.82786 sec.
+MD5 of Disk Image: ac51c1cb7fd09b2b9c2f05026f9abda2
+Phase 2. Shutting down scanners
+Phase 3. Creating Histograms
+Elapsed time: 5.55777 sec.
+Total MB processed: 7
+Overall performance: 1.40967 MBytes/sec (0.176209 MBytes/sec/thread)
+Total email features found: 0
+rc=0

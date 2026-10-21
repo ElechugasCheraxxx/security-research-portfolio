@@ -1,0 +1,5 @@
+[+] 387 inicios candidatos
+[*] analizando .text ...
+[*] analisis: 42.7 s
+[+] 28 funciones detectadas
+[+] descompiladas: 28  fallidas: 0 -> decomp_loader

@@ -1,0 +1,302 @@
+md5                     679b8a597f97821431c4063a9e54676e                        
+sha1                    9c37272763d59cfe01a2af60632584dbba3c0378                
+sha256                  c831793f283803051bfc7512e0ac6b5876a12a9031669ebeaeae24a…
+path                    /root/mrgarabato_analysis/run/unpacked_bypass.exe       
+timestamp               2026-10-14 15:27:41.958680                              
+capa version            7.4.0                                                   
+os                      windows                                                 
+format                  pe                                                      
+arch                    amd64                                                   
+analysis                static                                                  
+extractor               VivisectFeatureExtractor                                
+base address            0x140000000                                             
+rules                   /tmp/_MEIcQu3a3/rules                                   
+function count          10504                                                   
+library function count  275                                                     
+total feature count     449902                                                  
+
+execute syscall (8 matches)
+namespace    anti-analysis                                
+description  may be used to evade hooks or hinder analysis
+scope        basic block                                  
+matches      0x140805C26                                  
+             0x140805C26                                  
+             0x140805C26                                  
+             0x140805C26                                  
+             0x140805C25                                  
+             0x140805C26                                  
+             0x140805D17                                  
+             0x140F83C08                                  
+
+reference analysis tools strings
+namespace  anti-analysis
+scope      file         
+
+check for PEB BeingDebugged flag
+namespace  anti-analysis/anti-debugging/debugger-detection
+scope      basic block                                    
+matches    0x14000F2C0                                    
+
+reference anti-VM strings targeting Xen
+namespace  anti-analysis/anti-vm/vm-detection
+scope      file                              
+
+contain obfuscated stackstrings (12 matches)
+namespace  anti-analysis/obfuscation/string/stackstring
+scope      basic block                                 
+matches    0x14000D470                                 
+           0x14000D4B0                                 
+           0x14000D6B0                                 
+           0x14000D743                                 
+           0x14000D9B4                                 
+           0x14000FBFC                                 
+           0x14001026B                                 
+           0x1400121D0                                 
+           0x140012290                                 
+           0x1400122E0                                 
+           0x140012320                                 
+           0x1400123A0                                 
+
+encode data using Base64 (5 matches)
+namespace  data-manipulation/encoding/base64
+scope      function                         
+matches    0x140028F30                      
+           0x14002B550                      
+           0x140806D97                      
+           0x140806DF5                      
+           0x140806FDB                      
+
+reference Base64 string
+namespace  data-manipulation/encoding/base64
+scope      file                             
+
+encode data using XOR (137 matches)
+namespace  data-manipulation/encoding/xor
+scope      basic block                   
+matches    0x14000D3D0                   
+           0x14000D411                   
+           0x14000D460                   
+           0x14000D4A0                   
+           0x14000D4E0                   
+           0x14000D520                   
+           0x14000D560                   
+           0x14000D5A0                   
+           0x14000D5E0                   
+           0x14000D620                   
+           0x14000D660                   
+           0x14000D6A0                   
+           0x14000D6E0                   
+           0x14000D730                   
+           0x14000D780                   
+           0x14000D7C0                   
+           0x14000D800                   
+           0x14000D850                   
+           0x14000D890                   
+           0x14000D8D0                   
+           0x14000D910                   
+           0x14000D960                   
+           0x14000D9A1                   
+           0x14000D9F0                   
+           0x14000DA30                   
+           0x14000DA71                   
+           0x14000DAC0                   
+           0x14000DB10                   
+           0x14000DB50                   
+           0x14000DB90                   
+           0x14000DBD0                   
+           0x14000DC10                   
+           0x14000EEF0                   
+           0x14000EFA0                   
+           0x14000F000                   
+           0x14000F090                   
+           0x14000F280                   
+           0x14000F340                   
+           0x14000F400                   
+           0x14000F530                   
+           0x14000F610                   
+           0x14000F6D0                   
+           0x14000F790                   
+           0x14000F860                   
+           0x14000F920                   
+           0x14000F9E0                   
+           0x14000FAA0                   
+           0x14000FB60                   
+           0x14000FC20                   
+           0x14000FCE0                   
+           0x14000FDA0                   
+           0x14000FE80                   
+           0x14000FF20                   
+           0x14000FFC0                   
+           0x140010060                   
+           0x1400100E0                   
+           0x140010160                   
+           0x1400101D0                   
+           0x140010240                   
+           0x140010290                   
+           0x140010A70                   
+           0x140010B70                   
+           0x140010C80                   
+           0x140010D80                   
+           0x140010EC0                   
+           0x140010F70                   
+           0x1400110D0                   
+           0x140011190                   
+           0x140011460                   
+           0x1400114C0                   
+           0x140011580                   
+           0x1400115E0                   
+           0x140011670                   
+           0x1400116F0                   
+           0x1400117A0                   
+           0x140011900                   
+           0x140011970                   
+           0x140011A20                   
+           0x140011AE0                   
+           0x140011B40                   
+           0x140011BA0                   
+           0x140011C30                   
+           0x140011CF0                   
+           0x140011D60                   
+           0x140011E10                   
+           0x140011E60                   
+           0x140011F10                   
+           0x140011FC0                   
+           0x140012190                   
+           0x140012200                   
+           0x1400122D0                   
+           0x140012310                   
+           0x140012350                   
+           0x140012390                   
+           0x1400123D0                   
+           0x14022FA66                   
+           0x14022FA66                   
+           0x14022FA66                   
+           0x14022FA66                   
+           0x14022FA66                   
+           0x140123DFF                   
+           0x140123DFF                   
+           0x140123DFF                   
+           0x14027BBFF                   
+           0x14027BBFF                   
+           0x14027BBFF                   
+           0x140179C30                   
+           0x14027BBFF                   
+           0x140179C30                   
+           0x140179C30                   
+           0x140179C30                   
+           0x14022FA66                   
+           0x14022FA66                   
+           0x14022FA66                   
+           0x14022FA66                   
+           0x14027BBFF                   
+           0x140250C40                   
+           0x14027BBFF                   
+           0x14027BBFF                   
+           0x14027BBFF                   
+           0x14027BBFF                   
+           0x14027BBFF                   
+           0x14027BBFF                   
+           0x14027BBFF                   
+           0x14027BBFF                   
+           0x14027BBFF                   
+           0x140280573                   
+           0x14022FA66                   
+           0x14022FA66                   
+           0x14022FA66                   
+           0x14022FA66                   
+           0x140179C30                   
+           0x14022FA66                   
+           0x14022FA66                   
+           0x14022FA66                   
+           0x14027BBFF                   
+           0x14085E161                   
+
+hash data using fnv (7 matches)
+namespace    data-manipulation/hashing/fnv                                      
+description  can be any Fowler-Noll-Vo (FNV) hash variant, including FNV-1,     
+             FNV-1a, FNV-0                                                      
+scope        function                                                           
+matches      0x14000EE70                                                        
+             0x14000F1E0                                                        
+             0x1400109D0                                                        
+             0x140010E20                                                        
+             0x140011020                                                        
+             0x1400113C0                                                        
+             0x1400120F0                                                        
+
+access PEB ldr_data (27 matches)
+namespace  linking/runtime-linking
+scope      basic block            
+matches    0x14000EE70            
+           0x14000EF30            
+           0x14000F010            
+           0x14000F1E0            
+           0x14000F2C0            
+           0x14000F393            
+           0x14000F4BD            
+           0x1400109D0            
+           0x140010ADC            
+           0x140010C11            
+           0x140010D0C            
+           0x140010E20            
+           0x140010F00            
+           0x140011020            
+           0x140011110            
+           0x1400113C0            
+           0x14001150B            
+           0x140011604            
+           0x140011736            
+           0x140011889            
+           0x1400119AC            
+           0x140011A60            
+           0x140011BC9            
+           0x140011C70            
+           0x140011EA8            
+           0x140011F50            
+           0x1400120F0            
+
+link function at runtime on Windows (3 matches)
+namespace  linking/runtime-linking
+scope      instruction            
+matches    0x140E384D1            
+           0x140E384D1            
+           0x140E384D1            
+
+resolve function by FNV-1a hash (3 matches)
+namespace    linking/runtime-linking                                            
+description  known import name hashes calculated using the non-cryptographic    
+             FNV-1a hashing algorithm                                           
+scope        function                                                           
+matches      0x14000F1E0                                                        
+             0x1400109D0                                                        
+             0x1400113C0                                                        
+
+parse PE header (6 matches)
+namespace  load-code/pe
+scope      function    
+matches    0x140039E50 
+           0x14003B9B0 
+           0x140809EED 
+           0x14080D4F4 
+           0x140E37FC6 
+           0x140E37FCC 
+
+resolve function by parsing PE exports (9 matches)
+namespace  load-code/pe
+scope      function    
+matches    0x14000EE70 
+           0x14000F1E0 
+           0x1400109D0 
+           0x140010E20 
+           0x140011020 
+           0x1400113C0 
+           0x1400120F0 
+           0x140E37FC6 
+           0x140E37FCC 
+
+reference startup folder
+namespace  persistence/startup-folder
+scope      file                      
+
+
+

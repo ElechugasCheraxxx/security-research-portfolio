@@ -1,0 +1,526 @@
+        <requestedExecutionLevel level='asInvoker' uiAccess='false' />
+      </requestedPrivileges>
+      <requestedPrivileges>
+    </security>
+    <security>
+  </trustInfo>
+  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
+ Microsoft Code Verification Root0
+ t,3
+!This program cannot be run in DOS mode.
+"W*o
+#(2v
+#http://crl.verisign.com/pca3-g5.crl04
+#http://logo.verisign.com/vslogo.gif04
+$"(@
+%VeriSign Class 3 Code Signing 2010 CA
+%VeriSign Class 3 Code Signing 2010 CA0
+&0$0"
+&J@<
+'Symantec Time Stamping Services CA - G2
+'Symantec Time Stamping Services CA - G20
+(0&0$
++Symantec Time Stamping Services Signer - G40
++http://ts-aia.ws.symantec.com/tss-ca-g2.cer0<
++http://ts-crl.ws.symantec.com/tss-ca-g2.crl0(
+,&c3
+,N<jPl
+-0+0)
+.00cfg
+.CRT$XCA
+.CRT$XCAA
+.CRT$XCL
+.CRT$XCZ
+.CRT$XIA
+.CRT$XIAA
+.CRT$XIAC
+.CRT$XIC
+.CRT$XIZ
+.CRT$XLA
+.CRT$XLZ
+.CRT$XPA
+.CRT$XPZ
+.CRT$XTA
+.CRT$XTZ
+.bss
+.data
+.http://crl.thawte.com/ThawteTimestampingCA.crl0
+.idata$2
+.idata$3
+.idata$4
+.idata$5
+.idata$6
+.pdata
+.rdata
+.rdata$T
+.rdata$voltmd
+.rdata$zzzdbg
+.rsrc
+.rsrc$01
+.rsrc$02
+.rtc$IAA
+.rtc$IZZ
+.rtc$TAA
+.rtc$TZZ
+.text
+.text$di
+.text$mn
+.text$mn$00
+.text$x
+.text$yd
+.tls
+.tls$
+.tls$ZZZ
+.xdata
+/http://csc3-2010-aia.verisign.com/CSC3-2010.cer0
+/http://csc3-2010-crl.verisign.com/CSC3-2010.crl0D
+0*0(
+07:22:40
+0V0(
+0r0^1
+1(c) 2006 VeriSign, Inc. - For authorized use only1E0C
+100208000000Z
+110222192517Z
+120517000000Z
+121018000000Z
+121221000000Z
+131114152322Z0#
+150530235959Z0
+1@0>
+200207235959Z0
+201229235959Z0b1
+201230235959Z0^1
+210222193517Z0
+2Terms of use at https://www.verisign.com/rpa (c)101.0,
+2oNW
+3130
+3BH8Q:|8
+50301
+5Digital ID Class 3 - Microsoft Software Validation v21
+80604
+889J
+90705
+:'jI
+</assembly>
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<CVu
+<VeriSign Class 3 Public Primary Certification Authority - G50
+<assembly xmlns='urn:schemas-microsoft-com:asm.v1' manifestVersion='1.0'>
+=0;09
+>"hcS
+>0<0
+B=e6
+C:\Aplicaciones\Visual Studio\Auto Updated\Process-Hollowing-main\Source\x64\Release\runpe.pdb
+CcjRK
+CloseHandle
+CreateEventW
+CreateFileA
+CreateProcessA
+D$ @
+D$ H
+D$(A
+D$(D
+D$(E
+D$(E3
+D$(H
+D$(L
+D$(tEH
+D$:H
+D$@A
+D$@E3
+D$@H
+D$@L
+D$HD
+D$L/vf
+D$PL
+D$TO
+D$V5
+D$XA
+D$XM
+D$`0
+D$`H
+D$pH
+D$x@
+D)yE
+DD$@
+DbgPrint
+Ddk 
+Ddk A
+DeleteCriticalSection
+Dhttp://crl.microsoft.com/pki/crl/products/MicrosoftCodeVerifRoot.crl0
+Dt-^fW
+Durbanville1
+EFAn
+ExAllocatePoolWithTag
+ExFreePoolWithTag
+FALSE
+FillKernelContext: VirtualAddress: %p
+G E3
+G8J-l
+GCTL
+GetCurrentProcess
+GetCurrentProcessId
+GetCurrentThreadId
+GetFileSize
+GetLastError
+GetModuleHandleW
+GetProcAddress
+GetProcessHeap
+GetSystemTimeAsFileTime
+GetThreadContext
+H.data
+H;3t
+H;k u
+HAL.dll
+HINIT
+HeapAlloc
+HeapFree
+Hillsboro1
+I',;
+InitializeCriticalSectionAndSpinCount
+InitializeCriticalSectionEx
+InitializeSListHead
+Intel Corporation0
+Intel Corporation1>0<
+IoAllocateMdl
+IoBuildSynchronousFsdRequest
+IoCreateDevice
+IoCreateSymbolicLink
+IoDeleteDevice
+IoDeleteSymbolicLink
+IoFreeMdl
+IoGetDeviceInterfaces
+IoGetDeviceObjectPointer
+IofCallDriver
+IofCompleteRequest
+IsDebuggerPresent
+IsProcessorFeaturePresent
+IsWow64Process
+KERNEL32.dll
+KeBugCheckEx
+KeInitializeEvent
+KeQueryPerformanceCounter
+KeStallExecutionProcessor
+KeWaitForSingleObject
+Kernel: 
+L$ E3
+L$ H
+L$ M
+L$(3
+L$(A
+L$0L
+L$8H
+L$@D
+L$@E
+L$@I
+L$H3
+L$HH
+L$HL
+L$PE
+L$PE3
+L$PH
+L$XE3
+L$XH
+L90t
+L90u
+LAN Access Division1
+Looking for match for %d/%d/%d
+M0E3
+Microsoft Corporation1)0'
+MmAllocateContiguousMemory
+MmBuildMdlForNonPagedPool
+MmFreeContiguousMemory
+MmGetPhysicalAddress
+MmMapIoSpace
+MmMapLockedPagesSpecifyCache
+MmUnmapIoSpace
+MmUnmapLockedPages
+N0L0J
+NAL_ENABLE_DEBUG_PRINT_FUNCID: FunctionData is NULL
+NAL_KKMEMCPY_FUNCID: One of the buffers was NULL
+NAL_KMEMSET_FUNCID: One of the buffers was NULL
+NAL_KUMEMCPY_FUNCID: One of the buffers was NULL
+NTPNP
+Nal Windows Driver DriverEntry: Completed
+Nal Windows Driver Loaded -- Compiled %s %s
+Nal Windows Driver Unload: IoDeleteDevice NOT called: NULL DeviceObject
+Nal Windows Driver Unload: Leaving... 
+Nal Windows Driver Unload: Starting
+Nal Windows DriverAddDevice: done
+Nal Windows DriverAddDevice: entered
+Nal Windows DriverClose: Leaving
+Nal Windows DriverClose: Starting
+Nal Windows DriverCreate: Leaving
+Nal Windows DriverCreate: Starting
+Nal Windows DriverDeviceControl: Invalid IOCTL code 0x%0x
+Nal Windows DriverIoCreateDevice failed.  Status = 0x%0x
+Nal Windows DriverIoCreateSymbolicLink failed.  Status = 0x%x
+NalDeviceControl: InputBuffer was NULL
+NalMmapAddressEx: *VirtualAddress = 0x%p (mapped to user)
+NalMmapAddressEx: *VirtualAddress = 0x%p (not mapped to user)
+NalMmapAddressEx: Vaddress = 0x%p
+NalOsSpecificIoctl: FunctionId = %d
+NalResolveOsSpecificIoctl: FuctionId = %d
+NalResolveOsSpecificIoctl: NAL_WIN_ADAPTER_IN_USE_FUNCID FunctionData is NULL
+NalResolveOsSpecificIoctl: NAL_WIN_ALLOC_DEV_CONTEXT_FUNCID FunctionData is NULL
+NalResolveOsSpecificIoctl: NAL_WIN_DRIVER_GET_REF_COUNT_FUNCID FunctionData is NULL
+NalResolveOsSpecificIoctl: NAL_WIN_FREE_DEV_CONTEXT_FUNCID FunctionData is NULL
+NalResolveOsSpecificIoctl: NAL_WIN_GET_PDO_POINTER_FUNCID FunctionData is NULL
+NalResolveOsSpecificIoctl: NAL_WIN_GET_SYMBOLIC_NAME_FUNCID FunctionData is NULL
+NalResolveOsSpecificIoctl: NAL_WIN_IS_ADAPTER_IN_USE_FUNCID FunctionData is NULL
+NalResolveOsSpecificIoctl: NAL_WIN_OS_DEVICE_FUNCID FunctionData is NULL
+NalUnmapAddress: Unmapping non-usermode mapped address 0x%p, Length %d
+NalUnmapAddressEx: Address not found in table - not unmapping 0x%p, Length %d
+NalUnmapAddressEx: Calling MmUnmapLockedPages
+NalUnmapAddressEx: Global_WinMemoryMapTable[%d].MappedAddress = 0x%p == 0x%p
+NalUnmapAddressEx: Global_WinMemoryMapTable[i].AddressToFree = %p
+NalUnmapAddressEx: Looking to unmap 0x%p, Length %d, ProcessId %d
+NalUnmapAddressEx: Skipped MmUnmapLockedPages - AddressToFree or Mdl was NULL
+NalUnmapAddressEx: Slot %d matched
+NalUnmapAddressEx: Unmapping OriginalMemoryMapped
+Nov 14 2013
+NtRaiseHardError
+ObReferenceObjectByPointer
+ObfDereferenceObject
+Oregon1
+OutputDebugStringW
+PAGE_SIZE * (65535 - sizeof(MDL)) / sizeof(ULONG_PTR) = %d
+PEq@
+QueryPerformanceCounter
+RSDS
+RSDSP
+ReadFile
+ReadProcessMemory
+Redmond1
+ResumeThread
+Rich
+RtlAdjustPrivilege
+RtlCaptureContext
+RtlFreeAnsiString
+RtlInitUnicodeString
+RtlLookupFunctionEntry
+RtlUnicodeStringToAnsiString
+RtlVirtualUnwind
+SetThreadContext
+SetUnhandledExceptionFilter
+Symantec Corporation100.
+Symantec Corporation1402
+T$(D
+T$(E3
+T$0A
+T$0H
+T$@A
+T$@H
+TRUE
+TerminateProcess
+Thawte Certification1
+Thawte Timestamping CA0
+Thawte1
+TimeStamp-2048-10
+TimeStamp-2048-20
+Translated
+UnhandledExceptionFilter
+VCRUNTIME140.dll
+VeriSign Trust Network1:08
+VeriSign Trust Network1;09
+VeriSign, Inc.1
+VeriSignMPKI-2-80
+VirtualAllocEx
+Washington1
+Western Cape1
+Wow64GetThreadContext
+Wow64SetThreadContext
+WriteProcessMemory
+ZwClose
+ZwEnumerateValueKey
+ZwOpenKey
+[0Y0W0U
+[hiMf
+\$ I
+\$(H
+\$0A
+\$0D
+\$0H
+\$0L
+\$0r
+\$8H
+\$8fE
+\$@3
+\$@D
+\$@H
+\$@f
+\$H3
+\$HH
+\$HL
+\$PH
+\$Pf
+\$XH
+\$`H
+\$pL
+\$xH
+\$|3
+\J$jg
+\vX-
+\vnO^
+]jxdE
+_NalAllocateMemoryNonPaged - MmAllocateContiguousMemory failed
+_NalAllocateMemoryNonPaged - MmMapLockedPages failed. Freeing MDL
+_NalAllocateMemoryNonPaged - VirtualAddress = 0x%p
+_NalFreeMemoryNonPagedEx: Memory entry 0x%p is not entered into the table. Not freeing anything.
+_NalHasInterruptOccurred returning %s
+_NalReadPciDeviceCount found %d devices (%d)
+_NalWinGetUserAddress: Address To Free = 0x%p
+_NalWinGetUserAddress: KernelLevelAddress = 0x%p
+_NalWinGetUserAddress: MmMapLockedPages failed. Freeing MDL
+_NalWinGetUserAddress: Unable to allocate MDL
+_NalWinGetUserAddress: Using memory map table slot %d - Length %d
+__C_specific_handler
+__acrt_iob_func
+__current_exception
+__current_exception_context
+__p___argc
+__p___argv
+__p__commode
+__setusermatherr
+__stdio_common_vfprintf
+_c_exit
+_cexit
+_configthreadlocale
+_configure_narrow_argv
+_crt_atexit
+_exit
+_get_initial_narrow_environment
+_initialize_narrow_environment
+_initialize_onexit_table
+_initterm
+_initterm_e
+_n]C
+_register_onexit_function
+_register_thread_local_exe_atexit_callback
+_seh_filter_exe
+_set_app_type
+_set_fmode
+_set_new_mode
+`F~T
+a;EQ
+api-ms-win-crt-heap-l1-1-0.dll
+api-ms-win-crt-locale-l1-1-0.dll
+api-ms-win-crt-math-l1-1-0.dll
+api-ms-win-crt-runtime-l1-1-0.dll
+api-ms-win-crt-stdio-l1-1-0.dll
+b07x
+c:\users\cloudbuild\337244\sdk\nal\src\winnt_wdm\driver\objfre_wnet_AMD64\amd64\iqvw64e.pdb
+c:\users\cloudbuild\337244\sdk\nal\src\winnt_wdm\driver\windriverpci_i.c
+d$ H
+d$ M
+d$0H
+d$8E
+d$8H
+d$PE
+d$PH
+d$PL
+d$xH
+d$xfA
+e0c0$
+exit
+free
+g0e0*
+h.rdata
+http://ocsp.thawte.com0
+http://ocsp.verisign.com0
+http://ocsp.verisign.com0;
+http://ts-ocsp.ws.symantec.com07
+https://www.verisign.com/cps0*
+https://www.verisign.com/rpa0
+i0g0e
+image/gif0!0
+k3gV'
+l$ I
+l$(H
+l$8H
+l$8I
+l$H3
+l$HH
+l$HL
+l$Ht$H
+l$Ht&f
+l$PH
+l$hH
+l$hL
+l$pH
+memcpy
+memset
+ntdll.dll
+ntoskrnl.exe
+o=%=W
+strncpy
+strstr
+t!H9P
+t$ @2
+t$ L
+t$(H
+t$0H
+t$@H
+t$@L
+t$@M
+t$HH
+t$PH
+t$PL
+t$hL
+t$pH
+t$pL
+t-E3
+t0M9t
+t>SH
+terminate
+tmE3
+vsprintf
+wcsncpy
+wha3
+w}c$<
+y3+.{
+y5CN
+y@b%
+z;T0S
+{]KV
+|$ H
+|$ f3
+|$ uG3
+|$(3
+|$(H
+|$0H
+|$8L
+|$8u
+|$@H
+|$@L
+|$HH
+|$HL
+|$XH
+|$xH
+|$xL
+|hh-
+040904B0
+1.03.0.7
+1.03.0.7 built by: WinDDK
+:..\drivers\Win64e\iqvw64e.SY
+CompanyName
+Copyright (C) 2002-2013 Intel Corporation All Rights Reserved.
+FileDescription
+FileVersion
+Intel Corporation 
+Intel(R) Network Adapter Diagnostic Driver
+Intel(R) iQVW64.SYS
+InternalName
+LegalCopyright
+OriginalFilename
+ProductName
+ProductVersion
+StringFileInfo
+Translation
+VS_VERSION_INFO
+VarFileInfo
+\??\Nal
+\Device\Nal
+\DosDevices\Nal
+\REGISTRY\MACHINE\HARDWARE\RESOURCEMAP\PnP Manager\PnpManager
+iQVW64.SYS
